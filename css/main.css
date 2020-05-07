@@ -1087,7 +1087,7 @@ pre .javascript .function {
   }
 }
 .back-to-top.back-to-top-on {
-  bottom: 30px;
+  bottom: 75px;
 }
 .header {
   background: transparent;
@@ -1974,7 +1974,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffd6ff;
+  background: #fff;
 }
 .links-of-blogroll {
   font-size: 13px;
