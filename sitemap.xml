@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.codingfly.site/about/index.html</loc>
+    
+    <lastmod>2020-05-07T08:47:09.007Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.codingfly.site/2020/05/07/blog/</loc>
     
     <lastmod>2020-05-07T08:20:39.360Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://blog.codingfly.site/2020/05/07/idea-tools/</loc>
     
     <lastmod>2020-05-07T06:43:31.159Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.codingfly.site/about/index.html</loc>
-    
-    <lastmod>2020-05-07T05:07:48.328Z</lastmod>
     
   </url>
   
