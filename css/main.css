@@ -2028,7 +2028,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #58a8c7;
+  background: #ff4954;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3212,6 +3212,10 @@ pre .javascript .function {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+#myCanvasContainer {
+  background: #fff;
+  margin-top: 10px;
 }
 @media (max-width: 767px) {
   .post-body {
