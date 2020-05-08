@@ -96,7 +96,7 @@
 <meta name="description" content="Python 作为一门高级编程语言，为我们提供了许多方便易用的内置函数，节省了不少开发应用的时间。因而，摘出必备函数及其用法以备后用。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python2.7之常用内置函数（二）">
-<meta property="og:url" content="http://blog.codingfly.site/2020/05/08/python27%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%EF%BC%88%E4%BA%8C%EF%BC%89/index.html">
+<meta property="og:url" content="https://blog.codingfly.site/2020/05/08/python27%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%EF%BC%88%E4%BA%8C%EF%BC%89/index.html">
 <meta property="og:site_name" content="CodingFly">
 <meta property="og:description" content="Python 作为一门高级编程语言，为我们提供了许多方便易用的内置函数，节省了不少开发应用的时间。因而，摘出必备函数及其用法以备后用。">
 <meta property="article:published_time" content="2020-05-08T02:05:29.000Z">
@@ -133,7 +133,7 @@
 
 
 
-  <link rel="canonical" href="http://blog.codingfly.site/2020/05/08/python27之常用内置函数（二）/"/>
+  <link rel="canonical" href="https://blog.codingfly.site/2020/05/08/python27之常用内置函数（二）/"/>
 
 
 
@@ -148,6 +148,9 @@
         }
     })();
 </script>
+
+<script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+<script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
   <title>Python2.7之常用内置函数（二） | CodingFly</title>
   
 
@@ -295,7 +298,6 @@
 </nav>
 
 
-
  </div>
     </header>
 
@@ -319,7 +321,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://blog.codingfly.site/2020/05/08/python27%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%EF%BC%88%E4%BA%8C%EF%BC%89/">
+    <link itemprop="mainEntityOfPage" href="https://blog.codingfly.site/2020/05/08/python27%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%EF%BC%88%E4%BA%8C%EF%BC%89/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="CodingFly">
@@ -422,7 +424,7 @@
 </blockquote>
 <a id="more"></a>
 
-<h1 id="匿名函数"><a href="#匿名函数" class="headerlink" title="匿名函数"></a>匿名函数</h1><h1 id=""><a href="#" class="headerlink" title=""></a></h1><p><em>lambda表示的是匿名函数,不需要用def来声明,一句话就可以声明出一个函数</em><br>语法:<br>函数名 = lambda 参数: 返回值<br>注意:<br>1.函数的参数可以有多个,多个参数之间用逗号隔开;<br>2.匿名函数不管多复杂,只能写一行,且逻辑结束后直接返回数据;<br>3.返回值和正常的函数一样,可以是任意数据类型</p>
+<h1 id="匿名函数"><a href="#匿名函数" class="headerlink" title="匿名函数"></a>匿名函数</h1><h1 id><a href="#" class="headerlink" title></a></h1><p><em>lambda表示的是匿名函数,不需要用def来声明,一句话就可以声明出一个函数</em><br>语法:<br>函数名 = lambda 参数: 返回值<br>注意:<br>1.函数的参数可以有多个,多个参数之间用逗号隔开;<br>2.匿名函数不管多复杂,只能写一行,且逻辑结束后直接返回数据;<br>3.返回值和正常的函数一样,可以是任意数据类型</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 计算n的n次方</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">func</span><span class="params">(n)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> n**n</span><br><span class="line">print(func(<span class="number">10</span>))</span><br><span class="line"> </span><br><span class="line">f = <span class="keyword">lambda</span> n: n**n</span><br><span class="line">print(f(<span class="number">10</span>))</span><br></pre></td></tr></table></figure>
 
 <h1 id="递归-在python中递归的深度最大到998"><a href="#递归-在python中递归的深度最大到998" class="headerlink" title="递归 在python中递归的深度最大到998"></a>递归 <code>在python中递归的深度最大到998</code></h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">read</span><span class="params">(filepath, n)</span>:</span></span><br><span class="line">    files = os.listdir(filepath) <span class="comment"># 获取到当前文件夹中的所有文件</span></span><br><span class="line">    <span class="keyword">for</span> fi <span class="keyword">in</span> files: <span class="comment"># 遍历文件夹中的文件, 这里获取的只是本层文件名</span></span><br><span class="line">        fi_d = os.path.join(filepath,fi) <span class="comment"># 加入文件夹 获取到文件夹+文件</span></span><br><span class="line">        <span class="keyword">if</span> os.path.isdir(fi_d):  <span class="comment"># 如果该路径下的文件是文件夹</span></span><br><span class="line">            print(<span class="string">"\t"</span>*n, fi)</span><br><span class="line">            read(fi_d, n+<span class="number">1</span>) <span class="comment"># 继续进行相同的操作</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            print(<span class="string">"\t"</span>*n, fi) <span class="comment"># 递归出口. 最终在这里隐含着return</span></span><br><span class="line"> </span><br><span class="line"><span class="comment">#递归遍历目录下所有文件</span></span><br><span class="line">read(<span class="string">'d:/'</span>, <span class="number">0</span>)</span><br></pre></td></tr></table></figure>
@@ -456,8 +458,8 @@
   <p><span>文章作者:</span><a href="/" title="访问 CodingFly 的个人博客">CodingFly</a></p>
   <p><span>发布时间:</span>2020年05月08日 - 10:05</p>
   <p><span>最后更新:</span>2020年05月08日 - 11:05</p>
-  <p><span>原始链接:</span><a href="/2020/05/08/python27%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%EF%BC%88%E4%BA%8C%EF%BC%89/" title="Python2.7之常用内置函数（二）">http://blog.codingfly.site/2020/05/08/python27%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%EF%BC%88%E4%BA%8C%EF%BC%89/</a>
-    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://blog.codingfly.site/2020/05/08/python27%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%EF%BC%88%E4%BA%8C%EF%BC%89/"  aria-label="复制成功！"></i></span>
+  <p><span>原始链接:</span><a href="/2020/05/08/python27%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%EF%BC%88%E4%BA%8C%EF%BC%89/" title="Python2.7之常用内置函数（二）">https://blog.codingfly.site/2020/05/08/python27%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%EF%BC%88%E4%BA%8C%EF%BC%89/</a>
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://blog.codingfly.site/2020/05/08/python27%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%EF%BC%88%E4%BA%8C%EF%BC%89/"  aria-label="复制成功！"></i></span>
   </p>
   <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
 </div>
@@ -482,7 +484,7 @@
     
       <div>
         <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
-  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <div>您的支持将鼓励我继续创作！</div>
   <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
     <span>打赏</span>
   </button>
@@ -598,7 +600,7 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
+        <ul class="sidebar-nav motion-element" style="background:#ffffff; margin:0;padding: 20px 10px;">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
             文章目录
           </li>
@@ -620,7 +622,7 @@
               <p class="site-description motion-element" itemprop="description">记录生活点滴。</p>
           </div>
 
-          <nav class="site-state motion-element">
+          <nav class="site-state motion-element" style="background:#ffffff">
 
             
               <div class="site-state-item site-state-posts">
@@ -660,16 +662,16 @@
           
 
           
-            <div class="links-of-author motion-element">
+            <div class="links-of-author motion-element" style="background:#ffffff;margin-top:0; padding:20px 10px 10px 10px;">
                 
                   <span class="links-of-author-item">
-                    <a href="https://github.com/atongmu" target="_blank" title="GitHub">
+                    <a href="https://github.com/atongmu" rel="external nofollow" target="_blank" title="GitHub">
                       
                         <i class="fa fa-fw fa-github"></i>GitHub</a>
                   </span>
                 
                   <span class="links-of-author-item">
-                    <a href="mailto:715636539@163.com" target="_blank" title="E-Mail">
+                    <a href="mailto:715636539@163.com" rel="external nofollow" target="_blank" title="E-Mail">
                       
                         <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
                   </span>
@@ -684,6 +686,15 @@
           
 
           
+<div class="widget-wrap">
+    <div id="myCanvasContainer" class="widget tagcloud">
+        <canvas width="237" height="237" id="resCanvas">
+            <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Python2-7%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/" rel="tag">Python2.7常用函数</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Python%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/" rel="tag">Python字符串操作</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/" rel="tag">hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/idea/" rel="tag">idea</a><span class="tag-list-count">1</span></li></ul>
+        </canvas>
+    </div>
+</div>
+
+
         </div>
         <!--这里添加内容-->
 
@@ -708,19 +719,8 @@
 
       
     </div>
-    
-    <script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
-    <script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
-    <div class="widget-wrap">
-        <div id="myCanvasContainer" class="widget tagcloud">
-            <canvas width="250" height="250" id="resCanvas" style="width=100%">
-                <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Python2-7%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/" rel="tag">Python2.7常用函数</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Python%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/" rel="tag">Python字符串操作</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/" rel="tag">hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/idea/" rel="tag">idea</a><span class="tag-list-count">1</span></li></ul>
-            </canvas>
-        </div>
-    </div>
-    
   </aside>
-  
+
 
 
         

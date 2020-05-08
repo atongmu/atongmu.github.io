@@ -1,0 +1,8 @@
+User-agent: * Allow: /
+Allow: /archives/
+Disallow: /vendors/
+Disallow: /categories/
+
+
+Sitemap: https://blog.codingfly.site/sitemap.xml
+Sitemap: https://blog.codingfly.site/baidusitemap.xml
