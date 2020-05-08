@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.codingfly.site/about/index.html</loc>
+    <loc>http://blog.codingfly.site/2020/05/08/python27%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%EF%BC%88%E4%BA%8C%EF%BC%89/</loc>
     
-    <lastmod>2020-05-08T01:58:44.976Z</lastmod>
+    <lastmod>2020-05-08T03:16:59.104Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.codingfly.site/2020/05/08/python%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/</loc>
+    
+    <lastmod>2020-05-08T03:15:51.373Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://blog.codingfly.site/2020/05/08/python27%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%EF%BC%88%E4%B8%80%EF%BC%89/</loc>
     
-    <lastmod>2020-05-08T01:52:44.337Z</lastmod>
+    <lastmod>2020-05-08T03:15:48.611Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.codingfly.site/about/index.html</loc>
+    
+    <lastmod>2020-05-08T01:58:44.976Z</lastmod>
     
   </url>
   
