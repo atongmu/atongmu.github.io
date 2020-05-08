@@ -1991,7 +1991,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #66b357;
+  background: #281236;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3191,8 +3191,16 @@ pre .javascript .function {
   background: transparent;
   padding: 0;
 }
+.content-wrap .post-block {
+  background: #fff;
+  padding: 40px;
+}
 .posts-expand {
   padding: 0;
+}
+.posts-expand .page {
+  background: #fff;
+  padding: 40px;
 }
 .post-type-normal {
   background: #fff;
