@@ -1,120 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>idea开发工具</title>
-    <url>/2020/05/07/idea-tools/</url>
+    <title>程序员收藏网址专栏</title>
+    <url>/2020/05/09/%E7%A8%8B%E5%BA%8F%E5%91%98%E6%94%B6%E8%97%8F%E7%BD%91%E5%9D%80%E4%B8%93%E6%A0%8F/</url>
     <content><![CDATA[<blockquote>
-<p>开发工具有很多，我只选择Idea。</p>
+<p>每个程序员都有自己小工具包，我也不例外。也可以留言，知识共享一下。</p>
 </blockquote>
 <a id="more"></a>
 
-<p>学习参考: <a href="http://idea.medeming.com/jihuoma/" target="_blank" rel="noopener">文本</a></p>
-<h3 id="此链接仅供学习交流，不准用于商业用户。"><a href="#此链接仅供学习交流，不准用于商业用户。" class="headerlink" title="此链接仅供学习交流，不准用于商业用户。"></a>此链接仅供学习交流，不准用于商业用户。</h3><h3 id="本站不承担任何责任"><a href="#本站不承担任何责任" class="headerlink" title="本站不承担任何责任"></a>本站不承担任何责任</h3>]]></content>
+<h2 id="教程类"><a href="#教程类" class="headerlink" title="教程类"></a>教程类</h2><ul>
+<li><a href="https://www.bilibili.com/" target="_blank" rel="noopener">哔哩哔哩弹幕网</a></li>
+<li><a href="https://www.imooc.com/" target="_blank" rel="noopener">慕课网</a></li>
+<li><a href="https://www.runoob.com/" target="_blank" rel="noopener">菜鸟教程</a></li>
+<li><a href="https://ke.qq.com/" target="_blank" rel="noopener">腾讯课堂</a></li>
+<li><a href="http://how2j.cn/" target="_blank" rel="noopener">java程序学习</a></li>
+<li><a href="https://bbs.pythontab.com/?fr=docs" target="_blank" rel="noopener">Python中文社区</a></li>
+<li><a href="http://www.w3school.com.cn/" target="_blank" rel="noopener">html/css内容查询</a></li>
+<li><a href="https://www.liaoxuefeng.com" target="_blank" rel="noopener">廖雪峰的网站</a></li>
+</ul>
+<h2 id="代码类"><a href="#代码类" class="headerlink" title="代码类"></a>代码类</h2><ul>
+<li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+<li><a href="https://gitee.com/" target="_blank" rel="noopener">码云</a></li>
+<li><a href="https://www.oschina.net/" target="_blank" rel="noopener">开源中国</a></li>
+<li><a href="https://www.mycodes.net/" target="_blank" rel="noopener">源码之家</a></li>
+</ul>
+<h2 id="论坛类"><a href="#论坛类" class="headerlink" title="论坛类"></a>论坛类</h2><ul>
+<li><a href="https://www.csdn.net/" target="_blank" rel="noopener">CSDN</a></li>
+<li><a href="https://segmentfault.com/" target="_blank" rel="noopener">segmentfault</a></li>
+<li><a href="http://www.cnblogs.com/" target="_blank" rel="noopener">博客园</a></li>
+<li><a href="https://www.v2ex.com/" target="_blank" rel="noopener">v2ex</a></li>
+<li><a href="https://juejin.im/" target="_blank" rel="noopener">掘金</a></li>
+<li><a href="http://blog.51cto.com/13845070" target="_blank" rel="noopener">51cto</a></li>
+<li><a href="http://www.codeceo.com/" target="_blank" rel="noopener">码农网</a></li>
+<li><a href="http://www.cocoachina.com/" target="_blank" rel="noopener">cocoachina</a></li>
+<li><a href="https://gank.io" target="_blank" rel="noopener">干货集中营</a></li>
+</ul>
+<h2 id="面试题库类"><a href="#面试题库类" class="headerlink" title="面试题库类"></a>面试题库类</h2><ul>
+<li><a href="https://leetcode-cn.com/" target="_blank" rel="noopener">LeetCode（力扣）</a></li>
+<li><a href="https://www.nowcoder.com/" target="_blank" rel="noopener">牛客网</a></li>
+</ul>
+<h2 id="导航类"><a href="#导航类" class="headerlink" title="导航类"></a>导航类</h2><ul>
+<li><a href="http://www.alloyteam.com/nav/" target="_blank" rel="noopener">腾讯AlloyTeam团队的前端导航站</a></li>
+<li><a href="http://www.bewindoweb.com/dwg.php" target="_blank" rel="noopener">程序猿网站导航</a></li>
+<li><a href="https://www.puuuq.cn/" target="_blank" rel="noopener">AI圈导航</a></li>
+</ul>
+<h2 id="工具类"><a href="#工具类" class="headerlink" title="工具类"></a>工具类</h2><ul>
+<li><a href="https://mijisou.com" target="_blank" rel="noopener">秘迹搜索</a></li>
+<li><a href="https://cp.anyknew.com" target="_blank" rel="noopener">拷贝兔-文件传输工具</a></li>
+<li><a href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank" rel="noopener">清华开源镜像站</a></li>
+<li><a href="https://www.json.cn/" target="_blank" rel="noopener">Json在线解析验证</a></li>
+<li><a href="https://tool.lu/" target="_blank" rel="noopener">程序员在线工具</a></li>
+<li><a href="https://www.avatardata.cn/" target="_blank" rel="noopener">在线API接口</a></li>
+<li><a href="https://visualgo.net/zh" target="_blank" rel="noopener">VisuAlgo-算法</a></li>
+</ul>
+<p><em>排序无先后，本文会持续更新中······</em></p>
+]]></content>
       <categories>
         <category>tools</category>
       </categories>
       <tags>
-        <tag>idea</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python2.7之常用内置函数（二）</title>
-    <url>/2020/05/08/python27%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
-    <content><![CDATA[<blockquote>
-<p>Python 作为一门高级编程语言，为我们提供了许多方便易用的内置函数，节省了不少开发应用的时间。因而，摘出必备函数及其用法以备后用。</p>
-</blockquote>
-<a id="more"></a>
-
-<h1 id="匿名函数"><a href="#匿名函数" class="headerlink" title="匿名函数"></a>匿名函数</h1><h1 id><a href="#" class="headerlink" title></a></h1><p><em>lambda表示的是匿名函数,不需要用def来声明,一句话就可以声明出一个函数</em><br>语法:<br>函数名 = lambda 参数: 返回值<br>注意:<br>1.函数的参数可以有多个,多个参数之间用逗号隔开;<br>2.匿名函数不管多复杂,只能写一行,且逻辑结束后直接返回数据;<br>3.返回值和正常的函数一样,可以是任意数据类型</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 计算n的n次方</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">func</span><span class="params">(n)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> n**n</span><br><span class="line">print(func(<span class="number">10</span>))</span><br><span class="line"> </span><br><span class="line">f = <span class="keyword">lambda</span> n: n**n</span><br><span class="line">print(f(<span class="number">10</span>))</span><br></pre></td></tr></table></figure>
-
-<h1 id="递归-在python中递归的深度最大到998"><a href="#递归-在python中递归的深度最大到998" class="headerlink" title="递归 在python中递归的深度最大到998"></a>递归 <code>在python中递归的深度最大到998</code></h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">read</span><span class="params">(filepath, n)</span>:</span></span><br><span class="line">    files = os.listdir(filepath) <span class="comment"># 获取到当前文件夹中的所有文件</span></span><br><span class="line">    <span class="keyword">for</span> fi <span class="keyword">in</span> files: <span class="comment"># 遍历文件夹中的文件, 这里获取的只是本层文件名</span></span><br><span class="line">        fi_d = os.path.join(filepath,fi) <span class="comment"># 加入文件夹 获取到文件夹+文件</span></span><br><span class="line">        <span class="keyword">if</span> os.path.isdir(fi_d):  <span class="comment"># 如果该路径下的文件是文件夹</span></span><br><span class="line">            print(<span class="string">"\t"</span>*n, fi)</span><br><span class="line">            read(fi_d, n+<span class="number">1</span>) <span class="comment"># 继续进行相同的操作</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            print(<span class="string">"\t"</span>*n, fi) <span class="comment"># 递归出口. 最终在这里隐含着return</span></span><br><span class="line"> </span><br><span class="line"><span class="comment">#递归遍历目录下所有文件</span></span><br><span class="line">read(<span class="string">'d:/'</span>, <span class="number">0</span>)</span><br></pre></td></tr></table></figure>
-
-<h1 id="二分查找-二分查找-每次能够排除掉一半的数据-查找的效率非常高-但是局限性比较大-必须是有序序列才可以使用二分查找"><a href="#二分查找-二分查找-每次能够排除掉一半的数据-查找的效率非常高-但是局限性比较大-必须是有序序列才可以使用二分查找" class="headerlink" title="二分查找 二分查找,每次能够排除掉一半的数据,查找的效率非常高,但是局限性比较大,必须是有序序列才可以使用二分查找."></a>二分查找 <code>二分查找,每次能够排除掉一半的数据,查找的效率非常高,但是局限性比较大,必须是有序序列才可以使用二分查找.</code></h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 判断n是否在lst中出现. 如果出现请返回n所在的位置</span></span><br><span class="line"><span class="comment"># 二分查找---非递归算法</span></span><br><span class="line">lst = [<span class="number">22</span>, <span class="number">33</span>, <span class="number">44</span>, <span class="number">55</span>, <span class="number">66</span>, <span class="number">77</span>, <span class="number">88</span>, <span class="number">99</span>, <span class="number">101</span>, <span class="number">238</span>, <span class="number">345</span>, <span class="number">456</span>, <span class="number">567</span>, <span class="number">678</span>, <span class="number">789</span>]</span><br><span class="line">n = <span class="number">567</span></span><br><span class="line">left = <span class="number">0</span></span><br><span class="line">right = len(lst) - <span class="number">1</span></span><br><span class="line">count = <span class="number">1</span></span><br><span class="line"><span class="keyword">while</span> left &lt;= right:</span><br><span class="line">    middle = (left + right) // <span class="number">2</span></span><br><span class="line">    <span class="keyword">if</span> n &lt; lst[middle]:</span><br><span class="line">        right = middle - <span class="number">1</span></span><br><span class="line">    <span class="keyword">elif</span> n &gt; lst[middle]:</span><br><span class="line">        left = middle + <span class="number">1</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        print(count)</span><br><span class="line">        print(middle)</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">        count = count + <span class="number">1</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    print(<span class="string">"不存在"</span>)</span><br><span class="line"> </span><br><span class="line"><span class="comment"># 普通递归版本二分法</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">binary_search</span><span class="params">(n, left, right)</span>:</span></span><br><span class="line">    <span class="keyword">if</span> left &lt;= right:</span><br><span class="line">        middle = (left+right) // <span class="number">2</span></span><br><span class="line">        <span class="keyword">if</span> n &lt; lst[middle]:</span><br><span class="line">            right = middle - <span class="number">1</span></span><br><span class="line">        <span class="keyword">elif</span> n &gt; lst[middle]:</span><br><span class="line">            left = middle + <span class="number">1</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">return</span> middle</span><br><span class="line">        <span class="keyword">return</span> binary_search(n, left, right) <span class="comment"># 这个return必须要加.否则接收到的永是None.</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="number">-1</span></span><br><span class="line"> </span><br><span class="line">print(binary_search(<span class="number">567</span>, <span class="number">0</span>, len(lst)<span class="number">-1</span>))</span><br><span class="line"> </span><br><span class="line"><span class="comment"># 另类二分法, 很难计算位置.</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">binary_search</span><span class="params">(ls, target)</span>:</span></span><br><span class="line">    left = <span class="number">0</span></span><br><span class="line">    right = len(ls) - <span class="number">1</span></span><br><span class="line">    <span class="keyword">if</span> left &gt; right:</span><br><span class="line">        print(<span class="string">"不在这里"</span>)</span><br><span class="line">    middle = (left + right) // <span class="number">2</span></span><br><span class="line">    <span class="keyword">if</span> target &lt; ls[middle]:</span><br><span class="line">        <span class="keyword">return</span> binary_search(ls[:middle], target)</span><br><span class="line">    <span class="keyword">elif</span> target &gt; ls[middle]:</span><br><span class="line">        <span class="keyword">return</span> binary_search(ls[middle+<span class="number">1</span>:], target)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        print(<span class="string">"在这里"</span>)</span><br><span class="line"> </span><br><span class="line">binary_search(lst, <span class="number">567</span>)</span><br></pre></td></tr></table></figure>
-
-<h1 id="其他常用函数"><a href="#其他常用函数" class="headerlink" title="其他常用函数"></a>其他常用函数</h1><h3 id="len-返回一个对象中的元素的个数"><a href="#len-返回一个对象中的元素的个数" class="headerlink" title="len()  返回一个对象中的元素的个数"></a>len()  返回一个对象中的元素的个数</h3><h3 id="sorted-对可迭代对象进行排序操作"><a href="#sorted-对可迭代对象进行排序操作" class="headerlink" title="sorted()   对可迭代对象进行排序操作"></a>sorted()   对可迭代对象进行排序操作</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">lst = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">36</span>,<span class="number">4</span>,<span class="number">8</span>]</span><br><span class="line">print(sorted(lst))</span><br><span class="line">print(lst)<span class="comment">#原数据不变</span></span><br><span class="line"><span class="comment">#降序</span></span><br><span class="line">print(sorted(lst,reverse=Treu))</span><br><span class="line"><span class="comment">#key</span></span><br><span class="line">dic = &#123;<span class="string">'k1'</span>:<span class="number">1</span>,<span class="string">'k2'</span>:<span class="number">3</span>,<span class="string">'k3'</span>:<span class="number">56</span>&#125;</span><br><span class="line">print(sorted(dic,key=<span class="keyword">lambda</span> x:dic[x],reverse=<span class="literal">True</span>))</span><br><span class="line"><span class="comment">#key指定查找最大值时的规则</span></span><br><span class="line">print(max([<span class="number">1</span>,<span class="number">2</span>,<span class="number">-33</span>,<span class="number">5</span>],key=abs))</span><br></pre></td></tr></table></figure>
-<h3 id="reversed-反转-原数据没变"><a href="#reversed-反转-原数据没变" class="headerlink" title="reversed()  反转,原数据没变"></a>reversed()  反转,原数据没变</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">s1 = <span class="string">"alex"</span></span><br><span class="line">print(reversed(s1))<span class="comment">#结果为内存地址</span></span><br><span class="line">print(list(reversed(s1)))<span class="comment">#结果：['x', 'e', 'l', 'a']</span></span><br><span class="line">lst = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>]</span><br><span class="line">lst.reverse()</span><br><span class="line">print(s1)</span><br><span class="line">lst1 = list(reversed(lst))</span><br><span class="line">print(lst)</span><br><span class="line">print(lst1)</span><br></pre></td></tr></table></figure>
-<h3 id="enumerate-获取集合的枚举对象"><a href="#enumerate-获取集合的枚举对象" class="headerlink" title="enumerate()   获取集合的枚举对象"></a>enumerate()   获取集合的枚举对象</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">lst = [<span class="string">'周杰伦'</span>,<span class="string">'周润发'</span>,<span class="string">'周星驰'</span>]</span><br><span class="line"><span class="keyword">for</span> index,i <span class="keyword">in</span> enumerate(lst):</span><br><span class="line">    print(str(index) + i)</span><br></pre></td></tr></table></figure>
-<h3 id="dit-查看当前函数的方法"><a href="#dit-查看当前函数的方法" class="headerlink" title="dit():查看当前函数的方法"></a>dit():查看当前函数的方法</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(dir(list))</span><br></pre></td></tr></table></figure>
-
-<h3 id="zip-函数用于将可迭代的对象作为参数-将对象中对应的元素打包成一个个元组-然后返回有这些元组组成的列表-如果各个迭代器的元素个数不一致-则返回列表长度与最短的对象相同"><a href="#zip-函数用于将可迭代的对象作为参数-将对象中对应的元素打包成一个个元组-然后返回有这些元组组成的列表-如果各个迭代器的元素个数不一致-则返回列表长度与最短的对象相同" class="headerlink" title="zip()    函数用于将可迭代的对象作为参数,将对象中对应的元素打包成一个个元组,然后返回有这些元组组成的列表,如果各个迭代器的元素个数不一致,则返回列表长度与最短的对象相同."></a>zip()    函数用于将可迭代的对象作为参数,将对象中对应的元素打包成一个个元组,然后返回有这些元组组成的列表,如果各个迭代器的元素个数不一致,则返回列表长度与最短的对象相同.</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">l1 = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line">l2 = [<span class="string">'a'</span>,<span class="string">'b'</span>,<span class="string">'c'</span>,<span class="number">5</span>]</span><br><span class="line">l3 = (<span class="string">'*'</span>,<span class="string">'**'</span>,(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>))</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> zip(l1,l2,l3):</span><br><span class="line">    print(i)</span><br></pre></td></tr></table></figure>
-<h3 id="filter-过滤"><a href="#filter-过滤" class="headerlink" title="filter()   过滤"></a>filter()   过滤</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">lst = [<span class="string">'张无忌'</span>,<span class="string">'张翠山'</span>,<span class="string">'范冰冰'</span>,<span class="string">'金毛狮王'</span>,<span class="string">'李冰冰'</span>]</span><br><span class="line"><span class="comment">#过滤掉姓张的人</span></span><br><span class="line"><span class="comment"># 把可迭代对象打开,把内部元素一个一个的传递给前面的函数,由这个函数决定是否保留</span></span><br><span class="line"> </span><br><span class="line">f = filter(<span class="keyword">lambda</span> name : <span class="keyword">not</span> name.startswith(<span class="string">'张'</span>),lst)</span><br><span class="line">print(<span class="string">'__iter__'</span><span class="keyword">in</span> dir(f)) <span class="comment">#可迭代对象</span></span><br><span class="line"><span class="keyword">for</span> el <span class="keyword">in</span> f:</span><br><span class="line">    print(el)</span><br><span class="line"> </span><br><span class="line">lst = [</span><br><span class="line">    &#123;<span class="string">"name"</span>:<span class="string">"alex"</span>, <span class="string">"shengao"</span>:<span class="number">150</span>, <span class="string">"tizhong"</span>:<span class="number">250</span>&#125;,</span><br><span class="line">    &#123;<span class="string">"name"</span>:<span class="string">"wusir"</span>, <span class="string">"shengao"</span>:<span class="number">158</span>, <span class="string">"tizhong"</span>:<span class="number">150</span>&#125;,</span><br><span class="line">    &#123;<span class="string">"name"</span>:<span class="string">"taibai"</span>, <span class="string">"shengao"</span>:<span class="number">177</span>, <span class="string">"tizhong"</span>:<span class="number">130</span>&#125;,</span><br><span class="line">    &#123;<span class="string">"name"</span>:<span class="string">"ritian"</span>, <span class="string">"shengao"</span>:<span class="number">165</span>, <span class="string">"tizhong"</span>:<span class="number">130</span>&#125;,</span><br><span class="line">    &#123;<span class="string">"name"</span>:<span class="string">"nvshen"</span>, <span class="string">"shengao"</span>:<span class="number">160</span>, <span class="string">"tizhong"</span>:<span class="number">120</span>&#125;,</span><br><span class="line">    &#123;<span class="string">"name"</span>:<span class="string">"baolang"</span>, <span class="string">"shengao"</span>:<span class="number">183</span>, <span class="string">"tizhong"</span>:<span class="number">190</span>&#125;</span><br><span class="line">]</span><br><span class="line"><span class="comment">#过滤掉体重大于180的人 想要的是 小于180</span></span><br><span class="line">f = filter(<span class="keyword">lambda</span> d :d[<span class="string">'tizhong'</span>] &lt;= <span class="number">180</span>,lst)</span><br><span class="line">print(list(f))</span><br></pre></td></tr></table></figure>
-<h3 id="map-会根据提供的函数对指定序列做映射"><a href="#map-会根据提供的函数对指定序列做映射" class="headerlink" title="map()   会根据提供的函数对指定序列做映射"></a>map()   会根据提供的函数对指定序列做映射</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">lst = [<span class="string">'篮球'</span>,<span class="string">'打打台球'</span>,<span class="string">'唱歌'</span>,<span class="string">'爬荒山'</span>,<span class="string">'步'</span>]</span><br><span class="line">m = map(<span class="keyword">lambda</span> s:<span class="string">'爱好:'</span>+s,lst)</span><br><span class="line">print(list(m))</span><br><span class="line"> </span><br><span class="line">lst = [<span class="number">1</span>,<span class="number">5</span>,<span class="number">78</span>,<span class="number">12</span>,<span class="number">16</span>]  <span class="comment">#计算每个数字的平方</span></span><br><span class="line">print([i ** <span class="number">2</span> <span class="keyword">for</span> i <span class="keyword">in</span> lst])</span><br><span class="line">m = map(<span class="keyword">lambda</span> i : i ** <span class="number">2</span>,lst)</span><br><span class="line">print(list(m))</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python2.7常用函数</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>搭建Hexo博客</title>
-    <url>/2020/05/07/blog/</url>
-    <content><![CDATA[<blockquote>
-<p>选用next主题，搭建Hexo博客。不适合新手，备忘而已。</p>
-</blockquote>
-<a id="more"></a>
-
-<h1 id="Hexo-安装"><a href="#Hexo-安装" class="headerlink" title="Hexo 安装"></a>Hexo 安装</h1><p><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo 文档</a></p>
-<h1 id="Next-安装"><a href="#Next-安装" class="headerlink" title="Next 安装"></a>Next 安装</h1><p><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">Next 文档</a></p>
-<h1 id="Next-美化"><a href="#Next-美化" class="headerlink" title="Next 美化"></a>Next 美化</h1><p><a href="http://shenzekun.cn/hexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.html" target="_blank" rel="noopener">美化 文档</a></p>
-<p><a href="https://io-oi.me/tech/hexo-next-optimization/#top" target="_blank" rel="noopener">美化 文档</a></p>
-]]></content>
-      <categories>
-        <category>blog</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>python字符串操作</title>
-    <url>/2020/05/08/python%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/</url>
-    <content><![CDATA[<blockquote>
-<p>python字符串操作总结</p>
-</blockquote>
-<a id="more"></a>
-
-<h1 id="一-字符串去空格及去指定字符"><a href="#一-字符串去空格及去指定字符" class="headerlink" title="(一) 字符串去空格及去指定字符"></a>(一) 字符串去空格及去指定字符</h1><ol>
-<li>strip([‘str’])            #去两边的字符串’str’。</li>
-<li>lstrip([‘str’])           #去左边的字符串’str’。</li>
-<li>rstrip([‘str’])           #去右边的字符串’str’。</li>
-<li>split([‘str’])            #按指定字符’str’分隔进行切片。</li>
-</ol>
-<p><em>注：字符’str’的默认值是空格</em></p>
-<h1 id="二-字符串判断"><a href="#二-字符串判断" class="headerlink" title="(二) 字符串判断"></a>(二) 字符串判断</h1><ol>
-<li>startswith(‘str’)         #判断是否以str开头，是则返回True，否则返回False。</li>
-<li>endswith(‘str’)           #判断是否以str结尾，是则返回True，否则返回False。</li>
-<li>isalnum()                 #判断是否全为字母或数字，是则返回True，否则返回False。</li>
-<li>isalpha()                 #判断是否全字母，是则返回True，否则返回False。</li>
-<li>isdigit()                 #判断是否全数字，是则返回True，否则返回False。</li>
-<li>islower()                 #判断字母是否全为小写，是则返回True，否则i返回False。</li>
-<li>isupper()                 #判断字母是否全为大写，是则返回True，否则返回False。</li>
-</ol>
-<h1 id="三-字符串替换"><a href="#三-字符串替换" class="headerlink" title="(三) 字符串替换"></a>(三) 字符串替换</h1><ol>
-<li>replace(‘old’,’new’)                #将字符串内的old替换为new。</li>
-<li>replace(‘old’,’new’[,count])        #指定old的位置进行替换。</li>
-</ol>
-<h1 id="四-字符串搜索"><a href="#四-字符串搜索" class="headerlink" title="(四) 字符串搜索"></a>(四) 字符串搜索</h1><ol>
-<li>find(str[,start[,end]])      #检测str是否在字符串中，若是返回索引值，不是返回-1，范围从start到end。</li>
-<li>rfind(str[,start[,end]])     #类似于find的方法，不过是从右边开始查找。</li>
-<li>count(str[,start[,end]])     #返回str在字符串出现的次数，范围从start到end。</li>
-<li>index(str[,start[,end]])     #与find类似，但查找不到不会返回-1，而是异常，故建议不要用这个。</li>
-</ol>
-<p><em>注：start的默认值为0，end的默认值是字符串最尾端；</em></p>
-<h1 id="五-字母处理"><a href="#五-字母处理" class="headerlink" title="(五) 字母处理"></a>(五) 字母处理</h1><ol>
-<li>capitalize()      #把字符串第一个字符改成大写，其余小写。</li>
-<li>lower()           #转换字符串所有大写字符为小写。</li>
-<li>upper()           #转换字符串所有小写字符为大写。</li>
-<li>swapcase()        #翻转字符串的大小写。</li>
-<li>title()           #把字符串第一个字符改成大写。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python字符串操作</tag>
+        <tag>tools</tag>
       </tags>
   </entry>
   <entry>
@@ -209,22 +154,9 @@
 <li><a href="http://bigjpg.com/zh" target="_blank" rel="noopener">图片无限变放大</a></li>
 <li><a href="http://www.freeplaymusic.com/" target="_blank" rel="noopener">Freeplay Music - 背景音乐</a></li>
 </ul>
-<h2 id="程序员"><a href="#程序员" class="headerlink" title="程序员"></a>程序员</h2><ul>
-<li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
-<li><a href="https://gitee.com/" target="_blank" rel="noopener">码云</a></li>
-<li><a href="https://www.csdn.net/" target="_blank" rel="noopener">CSDN</a></li>
-<li><a href="https://www.v2ex.com/" target="_blank" rel="noopener">v2ex</a></li>
-<li><a href="https://juejin.im/" target="_blank" rel="noopener">掘金</a></li>
-<li><a href="http://www.cocoachina.com/" target="_blank" rel="noopener">cocoachina</a></li>
-<li><a href="https://www.runoob.com/" target="_blank" rel="noopener">菜鸟教程</a></li>
-<li><a href="https://gank.io" target="_blank" rel="noopener">干货集中营</a></li>
-<li><a href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank" rel="noopener">清华开源镜像站</a></li>
-<li><a href="https://tool.lu/" target="_blank" rel="noopener">程序员在线工具</a></li>
-<li><a href="https://www.avatardata.cn/" target="_blank" rel="noopener">在线API接口</a></li>
-<li><a href="http://www.bewindoweb.com/dwg.php" target="_blank" rel="noopener">程序猿网站导航</a></li>
-</ul>
 <h2 id="搜索资源"><a href="#搜索资源" class="headerlink" title="搜索资源"></a>搜索资源</h2><ul>
 <li><a href="https://www.dogedoge.com/" target="_blank" rel="noopener">多吉搜索</a></li>
+<li><a href="https://mijisou.com" target="_blank" rel="noopener">秘迹搜索</a></li>
 <li><a href="https://www.chongbuluo.com/" target="_blank" rel="noopener">虫部落</a></li>
 <li><a href="https://dalipan.com/" target="_blank" rel="noopener">大力盘搜索</a></li>
 <li><a href="https://cili8.info/" target="_blank" rel="noopener">磁力吧</a></li>
@@ -250,6 +182,86 @@
       </categories>
       <tags>
         <tag>tools</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python字符串操作</title>
+    <url>/2020/05/08/python%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/</url>
+    <content><![CDATA[<blockquote>
+<p>python字符串操作总结</p>
+</blockquote>
+<a id="more"></a>
+
+<h1 id="一-字符串去空格及去指定字符"><a href="#一-字符串去空格及去指定字符" class="headerlink" title="(一) 字符串去空格及去指定字符"></a>(一) 字符串去空格及去指定字符</h1><ol>
+<li>strip([‘str’])            #去两边的字符串’str’。</li>
+<li>lstrip([‘str’])           #去左边的字符串’str’。</li>
+<li>rstrip([‘str’])           #去右边的字符串’str’。</li>
+<li>split([‘str’])            #按指定字符’str’分隔进行切片。</li>
+</ol>
+<p><em>注：字符’str’的默认值是空格</em></p>
+<h1 id="二-字符串判断"><a href="#二-字符串判断" class="headerlink" title="(二) 字符串判断"></a>(二) 字符串判断</h1><ol>
+<li>startswith(‘str’)         #判断是否以str开头，是则返回True，否则返回False。</li>
+<li>endswith(‘str’)           #判断是否以str结尾，是则返回True，否则返回False。</li>
+<li>isalnum()                 #判断是否全为字母或数字，是则返回True，否则返回False。</li>
+<li>isalpha()                 #判断是否全字母，是则返回True，否则返回False。</li>
+<li>isdigit()                 #判断是否全数字，是则返回True，否则返回False。</li>
+<li>islower()                 #判断字母是否全为小写，是则返回True，否则i返回False。</li>
+<li>isupper()                 #判断字母是否全为大写，是则返回True，否则返回False。</li>
+</ol>
+<h1 id="三-字符串替换"><a href="#三-字符串替换" class="headerlink" title="(三) 字符串替换"></a>(三) 字符串替换</h1><ol>
+<li>replace(‘old’,’new’)                #将字符串内的old替换为new。</li>
+<li>replace(‘old’,’new’[,count])        #指定old的位置进行替换。</li>
+</ol>
+<h1 id="四-字符串搜索"><a href="#四-字符串搜索" class="headerlink" title="(四) 字符串搜索"></a>(四) 字符串搜索</h1><ol>
+<li>find(str[,start[,end]])      #检测str是否在字符串中，若是返回索引值，不是返回-1，范围从start到end。</li>
+<li>rfind(str[,start[,end]])     #类似于find的方法，不过是从右边开始查找。</li>
+<li>count(str[,start[,end]])     #返回str在字符串出现的次数，范围从start到end。</li>
+<li>index(str[,start[,end]])     #与find类似，但查找不到不会返回-1，而是异常，故建议不要用这个。</li>
+</ol>
+<p><em>注：start的默认值为0，end的默认值是字符串最尾端；</em></p>
+<h1 id="五-字母处理"><a href="#五-字母处理" class="headerlink" title="(五) 字母处理"></a>(五) 字母处理</h1><ol>
+<li>capitalize()      #把字符串第一个字符改成大写，其余小写。</li>
+<li>lower()           #转换字符串所有大写字符为小写。</li>
+<li>upper()           #转换字符串所有小写字符为大写。</li>
+<li>swapcase()        #翻转字符串的大小写。</li>
+<li>title()           #把字符串第一个字符改成大写。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python字符串操作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python2.7之常用内置函数（二）</title>
+    <url>/2020/05/08/python27%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
+    <content><![CDATA[<blockquote>
+<p>Python 作为一门高级编程语言，为我们提供了许多方便易用的内置函数，节省了不少开发应用的时间。因而，摘出必备函数及其用法以备后用。</p>
+</blockquote>
+<a id="more"></a>
+
+<h1 id="匿名函数"><a href="#匿名函数" class="headerlink" title="匿名函数"></a>匿名函数</h1><h1 id><a href="#" class="headerlink" title></a></h1><p><em>lambda表示的是匿名函数,不需要用def来声明,一句话就可以声明出一个函数</em><br>语法:<br>函数名 = lambda 参数: 返回值<br>注意:<br>1.函数的参数可以有多个,多个参数之间用逗号隔开;<br>2.匿名函数不管多复杂,只能写一行,且逻辑结束后直接返回数据;<br>3.返回值和正常的函数一样,可以是任意数据类型</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 计算n的n次方</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">func</span><span class="params">(n)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> n**n</span><br><span class="line">print(func(<span class="number">10</span>))</span><br><span class="line"> </span><br><span class="line">f = <span class="keyword">lambda</span> n: n**n</span><br><span class="line">print(f(<span class="number">10</span>))</span><br></pre></td></tr></table></figure>
+
+<h1 id="递归-在python中递归的深度最大到998"><a href="#递归-在python中递归的深度最大到998" class="headerlink" title="递归 在python中递归的深度最大到998"></a>递归 <code>在python中递归的深度最大到998</code></h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">read</span><span class="params">(filepath, n)</span>:</span></span><br><span class="line">    files = os.listdir(filepath) <span class="comment"># 获取到当前文件夹中的所有文件</span></span><br><span class="line">    <span class="keyword">for</span> fi <span class="keyword">in</span> files: <span class="comment"># 遍历文件夹中的文件, 这里获取的只是本层文件名</span></span><br><span class="line">        fi_d = os.path.join(filepath,fi) <span class="comment"># 加入文件夹 获取到文件夹+文件</span></span><br><span class="line">        <span class="keyword">if</span> os.path.isdir(fi_d):  <span class="comment"># 如果该路径下的文件是文件夹</span></span><br><span class="line">            print(<span class="string">"\t"</span>*n, fi)</span><br><span class="line">            read(fi_d, n+<span class="number">1</span>) <span class="comment"># 继续进行相同的操作</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            print(<span class="string">"\t"</span>*n, fi) <span class="comment"># 递归出口. 最终在这里隐含着return</span></span><br><span class="line"> </span><br><span class="line"><span class="comment">#递归遍历目录下所有文件</span></span><br><span class="line">read(<span class="string">'d:/'</span>, <span class="number">0</span>)</span><br></pre></td></tr></table></figure>
+
+<h1 id="二分查找-二分查找-每次能够排除掉一半的数据-查找的效率非常高-但是局限性比较大-必须是有序序列才可以使用二分查找"><a href="#二分查找-二分查找-每次能够排除掉一半的数据-查找的效率非常高-但是局限性比较大-必须是有序序列才可以使用二分查找" class="headerlink" title="二分查找 二分查找,每次能够排除掉一半的数据,查找的效率非常高,但是局限性比较大,必须是有序序列才可以使用二分查找."></a>二分查找 <code>二分查找,每次能够排除掉一半的数据,查找的效率非常高,但是局限性比较大,必须是有序序列才可以使用二分查找.</code></h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 判断n是否在lst中出现. 如果出现请返回n所在的位置</span></span><br><span class="line"><span class="comment"># 二分查找---非递归算法</span></span><br><span class="line">lst = [<span class="number">22</span>, <span class="number">33</span>, <span class="number">44</span>, <span class="number">55</span>, <span class="number">66</span>, <span class="number">77</span>, <span class="number">88</span>, <span class="number">99</span>, <span class="number">101</span>, <span class="number">238</span>, <span class="number">345</span>, <span class="number">456</span>, <span class="number">567</span>, <span class="number">678</span>, <span class="number">789</span>]</span><br><span class="line">n = <span class="number">567</span></span><br><span class="line">left = <span class="number">0</span></span><br><span class="line">right = len(lst) - <span class="number">1</span></span><br><span class="line">count = <span class="number">1</span></span><br><span class="line"><span class="keyword">while</span> left &lt;= right:</span><br><span class="line">    middle = (left + right) // <span class="number">2</span></span><br><span class="line">    <span class="keyword">if</span> n &lt; lst[middle]:</span><br><span class="line">        right = middle - <span class="number">1</span></span><br><span class="line">    <span class="keyword">elif</span> n &gt; lst[middle]:</span><br><span class="line">        left = middle + <span class="number">1</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        print(count)</span><br><span class="line">        print(middle)</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">        count = count + <span class="number">1</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    print(<span class="string">"不存在"</span>)</span><br><span class="line"> </span><br><span class="line"><span class="comment"># 普通递归版本二分法</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">binary_search</span><span class="params">(n, left, right)</span>:</span></span><br><span class="line">    <span class="keyword">if</span> left &lt;= right:</span><br><span class="line">        middle = (left+right) // <span class="number">2</span></span><br><span class="line">        <span class="keyword">if</span> n &lt; lst[middle]:</span><br><span class="line">            right = middle - <span class="number">1</span></span><br><span class="line">        <span class="keyword">elif</span> n &gt; lst[middle]:</span><br><span class="line">            left = middle + <span class="number">1</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">return</span> middle</span><br><span class="line">        <span class="keyword">return</span> binary_search(n, left, right) <span class="comment"># 这个return必须要加.否则接收到的永是None.</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="number">-1</span></span><br><span class="line"> </span><br><span class="line">print(binary_search(<span class="number">567</span>, <span class="number">0</span>, len(lst)<span class="number">-1</span>))</span><br><span class="line"> </span><br><span class="line"><span class="comment"># 另类二分法, 很难计算位置.</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">binary_search</span><span class="params">(ls, target)</span>:</span></span><br><span class="line">    left = <span class="number">0</span></span><br><span class="line">    right = len(ls) - <span class="number">1</span></span><br><span class="line">    <span class="keyword">if</span> left &gt; right:</span><br><span class="line">        print(<span class="string">"不在这里"</span>)</span><br><span class="line">    middle = (left + right) // <span class="number">2</span></span><br><span class="line">    <span class="keyword">if</span> target &lt; ls[middle]:</span><br><span class="line">        <span class="keyword">return</span> binary_search(ls[:middle], target)</span><br><span class="line">    <span class="keyword">elif</span> target &gt; ls[middle]:</span><br><span class="line">        <span class="keyword">return</span> binary_search(ls[middle+<span class="number">1</span>:], target)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        print(<span class="string">"在这里"</span>)</span><br><span class="line"> </span><br><span class="line">binary_search(lst, <span class="number">567</span>)</span><br></pre></td></tr></table></figure>
+
+<h1 id="其他常用函数"><a href="#其他常用函数" class="headerlink" title="其他常用函数"></a>其他常用函数</h1><h3 id="len-返回一个对象中的元素的个数"><a href="#len-返回一个对象中的元素的个数" class="headerlink" title="len()  返回一个对象中的元素的个数"></a>len()  返回一个对象中的元素的个数</h3><h3 id="sorted-对可迭代对象进行排序操作"><a href="#sorted-对可迭代对象进行排序操作" class="headerlink" title="sorted()   对可迭代对象进行排序操作"></a>sorted()   对可迭代对象进行排序操作</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">lst = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">36</span>,<span class="number">4</span>,<span class="number">8</span>]</span><br><span class="line">print(sorted(lst))</span><br><span class="line">print(lst)<span class="comment">#原数据不变</span></span><br><span class="line"><span class="comment">#降序</span></span><br><span class="line">print(sorted(lst,reverse=Treu))</span><br><span class="line"><span class="comment">#key</span></span><br><span class="line">dic = &#123;<span class="string">'k1'</span>:<span class="number">1</span>,<span class="string">'k2'</span>:<span class="number">3</span>,<span class="string">'k3'</span>:<span class="number">56</span>&#125;</span><br><span class="line">print(sorted(dic,key=<span class="keyword">lambda</span> x:dic[x],reverse=<span class="literal">True</span>))</span><br><span class="line"><span class="comment">#key指定查找最大值时的规则</span></span><br><span class="line">print(max([<span class="number">1</span>,<span class="number">2</span>,<span class="number">-33</span>,<span class="number">5</span>],key=abs))</span><br></pre></td></tr></table></figure>
+<h3 id="reversed-反转-原数据没变"><a href="#reversed-反转-原数据没变" class="headerlink" title="reversed()  反转,原数据没变"></a>reversed()  反转,原数据没变</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">s1 = <span class="string">"alex"</span></span><br><span class="line">print(reversed(s1))<span class="comment">#结果为内存地址</span></span><br><span class="line">print(list(reversed(s1)))<span class="comment">#结果：['x', 'e', 'l', 'a']</span></span><br><span class="line">lst = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>]</span><br><span class="line">lst.reverse()</span><br><span class="line">print(s1)</span><br><span class="line">lst1 = list(reversed(lst))</span><br><span class="line">print(lst)</span><br><span class="line">print(lst1)</span><br></pre></td></tr></table></figure>
+<h3 id="enumerate-获取集合的枚举对象"><a href="#enumerate-获取集合的枚举对象" class="headerlink" title="enumerate()   获取集合的枚举对象"></a>enumerate()   获取集合的枚举对象</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">lst = [<span class="string">'周杰伦'</span>,<span class="string">'周润发'</span>,<span class="string">'周星驰'</span>]</span><br><span class="line"><span class="keyword">for</span> index,i <span class="keyword">in</span> enumerate(lst):</span><br><span class="line">    print(str(index) + i)</span><br></pre></td></tr></table></figure>
+<h3 id="dit-查看当前函数的方法"><a href="#dit-查看当前函数的方法" class="headerlink" title="dit():查看当前函数的方法"></a>dit():查看当前函数的方法</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">print(dir(list))</span><br></pre></td></tr></table></figure>
+
+<h3 id="zip-函数用于将可迭代的对象作为参数-将对象中对应的元素打包成一个个元组-然后返回有这些元组组成的列表-如果各个迭代器的元素个数不一致-则返回列表长度与最短的对象相同"><a href="#zip-函数用于将可迭代的对象作为参数-将对象中对应的元素打包成一个个元组-然后返回有这些元组组成的列表-如果各个迭代器的元素个数不一致-则返回列表长度与最短的对象相同" class="headerlink" title="zip()    函数用于将可迭代的对象作为参数,将对象中对应的元素打包成一个个元组,然后返回有这些元组组成的列表,如果各个迭代器的元素个数不一致,则返回列表长度与最短的对象相同."></a>zip()    函数用于将可迭代的对象作为参数,将对象中对应的元素打包成一个个元组,然后返回有这些元组组成的列表,如果各个迭代器的元素个数不一致,则返回列表长度与最短的对象相同.</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">l1 = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line">l2 = [<span class="string">'a'</span>,<span class="string">'b'</span>,<span class="string">'c'</span>,<span class="number">5</span>]</span><br><span class="line">l3 = (<span class="string">'*'</span>,<span class="string">'**'</span>,(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>))</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> zip(l1,l2,l3):</span><br><span class="line">    print(i)</span><br></pre></td></tr></table></figure>
+<h3 id="filter-过滤"><a href="#filter-过滤" class="headerlink" title="filter()   过滤"></a>filter()   过滤</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">lst = [<span class="string">'张无忌'</span>,<span class="string">'张翠山'</span>,<span class="string">'范冰冰'</span>,<span class="string">'金毛狮王'</span>,<span class="string">'李冰冰'</span>]</span><br><span class="line"><span class="comment">#过滤掉姓张的人</span></span><br><span class="line"><span class="comment"># 把可迭代对象打开,把内部元素一个一个的传递给前面的函数,由这个函数决定是否保留</span></span><br><span class="line"> </span><br><span class="line">f = filter(<span class="keyword">lambda</span> name : <span class="keyword">not</span> name.startswith(<span class="string">'张'</span>),lst)</span><br><span class="line">print(<span class="string">'__iter__'</span><span class="keyword">in</span> dir(f)) <span class="comment">#可迭代对象</span></span><br><span class="line"><span class="keyword">for</span> el <span class="keyword">in</span> f:</span><br><span class="line">    print(el)</span><br><span class="line"> </span><br><span class="line">lst = [</span><br><span class="line">    &#123;<span class="string">"name"</span>:<span class="string">"alex"</span>, <span class="string">"shengao"</span>:<span class="number">150</span>, <span class="string">"tizhong"</span>:<span class="number">250</span>&#125;,</span><br><span class="line">    &#123;<span class="string">"name"</span>:<span class="string">"wusir"</span>, <span class="string">"shengao"</span>:<span class="number">158</span>, <span class="string">"tizhong"</span>:<span class="number">150</span>&#125;,</span><br><span class="line">    &#123;<span class="string">"name"</span>:<span class="string">"taibai"</span>, <span class="string">"shengao"</span>:<span class="number">177</span>, <span class="string">"tizhong"</span>:<span class="number">130</span>&#125;,</span><br><span class="line">    &#123;<span class="string">"name"</span>:<span class="string">"ritian"</span>, <span class="string">"shengao"</span>:<span class="number">165</span>, <span class="string">"tizhong"</span>:<span class="number">130</span>&#125;,</span><br><span class="line">    &#123;<span class="string">"name"</span>:<span class="string">"nvshen"</span>, <span class="string">"shengao"</span>:<span class="number">160</span>, <span class="string">"tizhong"</span>:<span class="number">120</span>&#125;,</span><br><span class="line">    &#123;<span class="string">"name"</span>:<span class="string">"baolang"</span>, <span class="string">"shengao"</span>:<span class="number">183</span>, <span class="string">"tizhong"</span>:<span class="number">190</span>&#125;</span><br><span class="line">]</span><br><span class="line"><span class="comment">#过滤掉体重大于180的人 想要的是 小于180</span></span><br><span class="line">f = filter(<span class="keyword">lambda</span> d :d[<span class="string">'tizhong'</span>] &lt;= <span class="number">180</span>,lst)</span><br><span class="line">print(list(f))</span><br></pre></td></tr></table></figure>
+<h3 id="map-会根据提供的函数对指定序列做映射"><a href="#map-会根据提供的函数对指定序列做映射" class="headerlink" title="map()   会根据提供的函数对指定序列做映射"></a>map()   会根据提供的函数对指定序列做映射</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">lst = [<span class="string">'篮球'</span>,<span class="string">'打打台球'</span>,<span class="string">'唱歌'</span>,<span class="string">'爬荒山'</span>,<span class="string">'步'</span>]</span><br><span class="line">m = map(<span class="keyword">lambda</span> s:<span class="string">'爱好:'</span>+s,lst)</span><br><span class="line">print(list(m))</span><br><span class="line"> </span><br><span class="line">lst = [<span class="number">1</span>,<span class="number">5</span>,<span class="number">78</span>,<span class="number">12</span>,<span class="number">16</span>]  <span class="comment">#计算每个数字的平方</span></span><br><span class="line">print([i ** <span class="number">2</span> <span class="keyword">for</span> i <span class="keyword">in</span> lst])</span><br><span class="line">m = map(<span class="keyword">lambda</span> i : i ** <span class="number">2</span>,lst)</span><br><span class="line">print(list(m))</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python2.7常用函数</tag>
       </tags>
   </entry>
   <entry>
@@ -336,6 +348,43 @@
       </categories>
       <tags>
         <tag>Python2.7常用函数</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>搭建Hexo博客</title>
+    <url>/2020/05/07/blog/</url>
+    <content><![CDATA[<blockquote>
+<p>选用next主题，搭建Hexo博客。不适合新手，备忘而已。</p>
+</blockquote>
+<a id="more"></a>
+
+<h1 id="Hexo-安装"><a href="#Hexo-安装" class="headerlink" title="Hexo 安装"></a>Hexo 安装</h1><p><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo 文档</a></p>
+<h1 id="Next-安装"><a href="#Next-安装" class="headerlink" title="Next 安装"></a>Next 安装</h1><p><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">Next 文档</a></p>
+<h1 id="Next-美化"><a href="#Next-美化" class="headerlink" title="Next 美化"></a>Next 美化</h1><p><a href="http://shenzekun.cn/hexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.html" target="_blank" rel="noopener">美化 文档</a></p>
+<p><a href="https://io-oi.me/tech/hexo-next-optimization/#top" target="_blank" rel="noopener">美化 文档</a></p>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>idea开发工具</title>
+    <url>/2020/05/07/idea-tools/</url>
+    <content><![CDATA[<blockquote>
+<p>开发工具有很多，我只选择Idea。</p>
+</blockquote>
+<a id="more"></a>
+
+<p>学习参考: <a href="http://idea.medeming.com/jihuoma/" target="_blank" rel="noopener">文本</a></p>
+<h3 id="此链接仅供学习交流，不准用于商业用户。"><a href="#此链接仅供学习交流，不准用于商业用户。" class="headerlink" title="此链接仅供学习交流，不准用于商业用户。"></a>此链接仅供学习交流，不准用于商业用户。</h3><h3 id="本站不承担任何责任"><a href="#本站不承担任何责任" class="headerlink" title="本站不承担任何责任"></a>本站不承担任何责任</h3>]]></content>
+      <categories>
+        <category>tools</category>
+      </categories>
+      <tags>
+        <tag>idea</tag>
       </tags>
   </entry>
 </search>
