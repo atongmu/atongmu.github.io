@@ -1,6 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Flask学习专栏</title>
+    <url>/2020/05/11/Flask%E5%AD%A6%E4%B9%A0%E4%B8%93%E6%A0%8F/</url>
+    <content><![CDATA[<blockquote>
+<p>Flask是由python实现的一个web微框架，“微”(micro) 并不表示你需要把整个 Web 应用塞进单个 Python 文件（虽然确实可以），也不意味着 Flask 在功能上有所欠缺。微框架中的“微”意味着 Flask 旨在保持核心简单且易扩展。Flask 不会替你作出过多选择，比如使用何种数据库。并且，Flask已经选择好的，比如使用何种模板引擎，是易于修改的。除此之外的一切都取决于你，因此 Flask 可以满足你的一切需求。</p>
+</blockquote>
+<a id="more"></a>
+
+<h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><a href="https://dormousehole.readthedocs.io/en/latest/" target="_blank" rel="noopener">Flask 中文文档</a></td>
+<td align="center"><a href="https://www.ctolib.com/docs-flaskcn-c-index.html" target="_blank" rel="noopener">Flask 扩展文档汇总</a></td>
+<td align="center"><a href="http://www.helloflask.com/" target="_blank" rel="noopener">Flask资源集合地</a></td>
+</tr>
+<tr>
+<td align="center"><a href="http://flask123.sinaapp.com/" target="_blank" rel="noopener">Flask 中文学习网</a></td>
+<td align="center"><a href="https://wiki.jikexueyuan.com/project/flask-guide/" target="_blank" rel="noopener">Flask 学习指南</a></td>
+<td align="center"><a href="https://cizixs.com/2017/01/13/flask-insight-context/" target="_blank" rel="noopener">flask 源码解析</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/humiaozuzu/awesome-flask" target="_blank" rel="noopener">Awesome Flask</a></td>
+<td align="center"><a href="http://www.pythondoc.com/#" target="_blank" rel="noopener">python中文学习大本营</a></td>
+<td align="center"><a href="http://wklken.me/posts/2013/09/09/python-framework-flask.html" target="_blank" rel="noopener">flask使用小结</a></td>
+</tr>
+</tbody></table>
+<h2 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h2><table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><a href="http://www.bjhee.com/flask-1.html" target="_blank" rel="noopener">Flask入门系列教程</a></td>
+<td align="center"><a href="http://www.bjhee.com/flask-ad1.html" target="_blank" rel="noopener">Flask进阶系列教程</a></td>
+<td align="center"><a href="https://www.bilibili.com/video/BV1tt411w72Q" target="_blank" rel="noopener">Flask框架学习教程+实战</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/luhuisicnu/The-Flask-Mega-Tutorial-zh" target="_blank" rel="noopener">The Flask Mega-Tutorial 教程</a></td>
+<td align="center"><a href="https://blog.csdn.net/u014793102/column/info/33918" target="_blank" rel="noopener">Flask从入门到做出一个博客的大型教程</a></td>
+<td align="center"><a href="http://www.manongjc.com/detail/11-rtgjrhdfauycybo.html" target="_blank" rel="noopener">Flask-admin后台管理系统总结</a></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+        <tag>flask</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>python优雅代码编写技巧笔录</title>
     <url>/2020/05/11/python%E4%BC%98%E9%9B%85%E4%BB%A3%E7%A0%81%E7%BC%96%E5%86%99%E6%8A%80%E5%B7%A7%E7%AC%94%E5%BD%95/</url>
     <content><![CDATA[<blockquote>
@@ -119,9 +179,9 @@
 <td align="center"><a href="https://www.kancloud.cn/codingke/python/539513" target="_blank" rel="noopener">Python语言基础到精通全方位实战解读【视频教程】</a></td>
 </tr>
 <tr>
-<td align="center"><a href="https://www.kancloud.cn/hartnett/flask/131479" target="_blank" rel="noopener">Flask中文文档</a></td>
-<td align="center"><a href="https://www.kancloud.cn/wizardforcel/flask-extension-docs" target="_blank" rel="noopener">Flask 扩展文档汇总</a></td>
-<td align="center"><a href="http://www.w3school.com.cn/" target="_blank" rel="noopener">html/css内容查询</a></td>
+<td align="center"><a href="http://www.pythondoc.com/#" target="_blank" rel="noopener">python中文学习大本营</a></td>
+<td align="center"></td>
+<td align="center"></td>
 </tr>
 </tbody></table>
 <h2 id="互联网资讯"><a href="#互联网资讯" class="headerlink" title="互联网资讯"></a>互联网资讯</h2><table>
