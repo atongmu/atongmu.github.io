@@ -2037,7 +2037,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #18ff04;
+  background: #3498c9;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3220,6 +3220,9 @@ pre .javascript .function {
   background: url("https://api.uixsj.cn/bing/bing.php") no-repeat center;
   background-attachment: fixed;
   background-size: cover;
+}
+#footer {
+  background: #000;
 }
 .header-inner {
   top: 10px;
