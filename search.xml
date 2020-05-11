@@ -27,14 +27,14 @@
 <td align="center"><a href="http://how2j.cn/" target="_blank" rel="noopener">java程序学习</a></td>
 </tr>
 <tr>
-<td align="center"><a href="https://bbs.pythontab.com/?fr=docs" target="_blank" rel="noopener">Python中文社区</a></td>
-<td align="center"><a href="https://www.kancloud.cn/kancloud/python3-cookbook/47412" target="_blank" rel="noopener">Python3 CookBook中文版</a></td>
+<td align="center"><a href="https://pychina.org/" target="_blank" rel="noopener">Python中国社区</a></td>
+<td align="center"><a href="https://www.kancloud.cn/kancloud/learn-python-hard-way/49863" target="_blank" rel="noopener">笨办法学Python</a></td>
 <td align="center"><a href="https://www.kancloud.cn/codingke/python/539513" target="_blank" rel="noopener">Python语言基础到精通全方位实战解读【视频教程】</a></td>
 </tr>
 <tr>
+<td align="center"><a href="https://www.kancloud.cn/hartnett/flask/131479" target="_blank" rel="noopener">Flask中文文档</a></td>
+<td align="center"><a href="https://www.kancloud.cn/wizardforcel/flask-extension-docs" target="_blank" rel="noopener">Flask 扩展文档汇总</a></td>
 <td align="center"><a href="http://www.w3school.com.cn/" target="_blank" rel="noopener">html/css内容查询</a></td>
-<td align="center"></td>
-<td align="center"></td>
 </tr>
 </tbody></table>
 <h2 id="互联网资讯"><a href="#互联网资讯" class="headerlink" title="互联网资讯"></a>互联网资讯</h2><table>
@@ -157,17 +157,17 @@
 <tbody><tr>
 <td align="center"><a href="http://www.alloyteam.com/" target="_blank" rel="noopener">腾讯AlloyTeam</a></td>
 <td align="center"><a href="https://isux.tencent.com/" target="_blank" rel="noopener">腾讯社交用户体验ISUX</a></td>
-<td align="center">[淘宝FED</td>
+<td align="center"><a href="http://taobaofed.org/" target="_blank" rel="noopener">淘宝FED-淘宝前端团队</a></td>
 </tr>
 <tr>
 <td align="center"><a href="http://www.aliued.com/" target="_blank" rel="noopener">阿里巴巴国际UED</a></td>
-<td align="center">[京东</td>
-<td align="center">凹凸实验室](<a href="https://aotu.io/" target="_blank" rel="noopener">https://aotu.io/</a>)</td>
+<td align="center"><a href="https://aotu.io/" target="_blank" rel="noopener">京东-凹凸实验室</a></td>
+<td align="center"><a href="https://zhuanlan.zhihu.com/ElemeFE" target="_blank" rel="noopener">饿了么前端</a></td>
 </tr>
 <tr>
 <td align="center"><a href="http://fex.baidu.com/" target="_blank" rel="noopener">百度前端研发部FEX</a></td>
-<td align="center">[360</td>
-<td align="center">奇舞团](<a href="https://75team.com/" target="_blank" rel="noopener">https://75team.com/</a>)</td>
+<td align="center"><a href="https://75team.com/" target="_blank" rel="noopener">360-奇舞团</a></td>
+<td align="center"><a href="https://knownsec-fed.com/" target="_blank" rel="noopener">知道创宇FED</a></td>
 </tr>
 </tbody></table>
 <h2 id="前端大牛"><a href="#前端大牛" class="headerlink" title="前端大牛"></a>前端大牛</h2><table>
@@ -213,7 +213,7 @@
 </thead>
 <tbody><tr>
 <td align="center"><a href="https://geekdocs.cn/" target="_blank" rel="noopener">极客导航</a></td>
-<td align="center"><a href="http://www.alloyteam.com/nav/" target="_blank" rel="noopener">腾讯AlloyTeam团队的前端导航站</a></td>
+<td align="center"><a href="http://www.alloyteam.com/nav/" target="_blank" rel="noopener">腾讯前端导航站</a></td>
 <td align="center"><a href="http://www.bewindoweb.com/dwg.php" target="_blank" rel="noopener">程序猿网站导航</a></td>
 </tr>
 <tr>
@@ -298,8 +298,6 @@
 <a id="more"></a>
 
 <h2 id="看视频"><a href="#看视频" class="headerlink" title="看视频"></a>看视频</h2><ul>
-<li><a href="http://gaoqing.la/" target="_blank" rel="noopener">中国高清</a>    </li>
-<li><a href="https://bowan.su" target="_blank" rel="noopener">播王</a>    </li>
 <li><a href="http://www.qiangxiankan.cc/" target="_blank" rel="noopener">抢先看</a>    </li>
 <li><a href="https://www.zabaye.com/" target="_blank" rel="noopener">扎巴野</a>    </li>
 <li><a href="https://ddrk.me/category/movie/" target="_blank" rel="noopener">低端影视</a>    </li>
