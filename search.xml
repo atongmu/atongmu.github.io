@@ -141,10 +141,10 @@
 <p><em>正则表达式模式匹配也类似，也最好先将正则表达式模式编译成regex对象（通过re.complie()函数），然后再执行比较和匹配。</em></p>
 ]]></content>
       <categories>
-        <category>python</category>
+        <category>Python</category>
       </categories>
       <tags>
-        <tag>python</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
