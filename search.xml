@@ -48,9 +48,19 @@
 <tr>
 <td align="center"><a href="https://github.com/luhuisicnu/The-Flask-Mega-Tutorial-zh" target="_blank" rel="noopener">The Flask Mega-Tutorial 教程</a></td>
 <td align="center"><a href="https://blog.csdn.net/u014793102/column/info/33918" target="_blank" rel="noopener">Flask从入门到做出一个博客的大型教程</a></td>
-<td align="center"><a href="http://www.manongjc.com/detail/11-rtgjrhdfauycybo.html" target="_blank" rel="noopener">Flask-admin后台管理系统总结</a></td>
+<td align="center"></td>
 </tr>
 </tbody></table>
+<h2 id="Flask-Admin"><a href="#Flask-Admin" class="headerlink" title="Flask-Admin"></a>Flask-Admin</h2><ul>
+<li><a href="https://www.cnblogs.com/hellohorld/p/10019515.html" target="_blank" rel="noopener">Flask扩展包之flask-admin</a></li>
+<li><a href="http://www.manongjc.com/detail/11-rtgjrhdfauycybo.html" target="_blank" rel="noopener">后台管理系统总结</a></li>
+<li><a href="https://www.cnblogs.com/magicroc/articles/6103773.html" target="_blank" rel="noopener">使用经验技巧总结</a></li>
+<li><a href="https://juejin.im/entry/58b8d22361ff4b006cdcd27a" target="_blank" rel="noopener">管理系统总结</a></li>
+<li><a href="https://www.cnblogs.com/minsons/tag/flask_admin/" target="_blank" rel="noopener">系列文档</a></li>
+<li><a href="https://www.jianshu.com/p/cb4da456dbed" target="_blank" rel="noopener">权限</a></li>
+<li><a href="https://www.cnblogs.com/jackadam/p/12133021.html" target="_blank" rel="noopener">自定义视图参数设置</a></li>
+<li><a href="https://greyli.com/add-ckeditor-in-flask-admin-by-flask-ckeditor/" target="_blank" rel="noopener">集成富文本编辑器 CKEditor</a></li>
+</ul>
 ]]></content>
       <categories>
         <category>Python</category>
