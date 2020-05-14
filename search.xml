@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Flask学习专栏</title>
-    <url>/2020/05/11/Flask%E5%AD%A6%E4%B9%A0%E4%B8%93%E6%A0%8F/</url>
+    <url>/blog/2020/05/11/Flask%E5%AD%A6%E4%B9%A0%E4%B8%93%E6%A0%8F/</url>
     <content><![CDATA[<blockquote>
 <p>Flask是由python实现的一个web微框架，“微”(micro) 并不表示你需要把整个 Web 应用塞进单个 Python 文件（虽然确实可以），也不意味着 Flask 在功能上有所欠缺。微框架中的“微”意味着 Flask 旨在保持核心简单且易扩展。Flask 不会替你作出过多选择，比如使用何种数据库。并且，Flask已经选择好的，比如使用何种模板引擎，是易于修改的。除此之外的一切都取决于你，因此 Flask 可以满足你的一切需求。</p>
 </blockquote>
@@ -72,7 +72,7 @@
   </entry>
   <entry>
     <title>python优雅代码编写技巧笔录</title>
-    <url>/2020/05/11/python%E4%BC%98%E9%9B%85%E4%BB%A3%E7%A0%81%E7%BC%96%E5%86%99%E6%8A%80%E5%B7%A7%E7%AC%94%E5%BD%95/</url>
+    <url>/blog/2020/05/11/python%E4%BC%98%E9%9B%85%E4%BB%A3%E7%A0%81%E7%BC%96%E5%86%99%E6%8A%80%E5%B7%A7%E7%AC%94%E5%BD%95/</url>
     <content><![CDATA[<blockquote>
 <p>优雅代码编写是一个循序渐进的过程，要不断地总结归纳。</p>
 </blockquote>
@@ -159,7 +159,7 @@
   </entry>
   <entry>
     <title>程序员收藏网址专栏</title>
-    <url>/2020/05/09/%E7%A8%8B%E5%BA%8F%E5%91%98%E6%94%B6%E8%97%8F%E7%BD%91%E5%9D%80%E4%B8%93%E6%A0%8F/</url>
+    <url>/blog/2020/05/09/%E7%A8%8B%E5%BA%8F%E5%91%98%E6%94%B6%E8%97%8F%E7%BD%91%E5%9D%80%E4%B8%93%E6%A0%8F/</url>
     <content><![CDATA[<blockquote>
 <p>每个程序员都有自己小工具包，我也不例外，分享出来希望能够帮助到大家。也可以留言补充，技术无国界，共享才地道。</p>
 </blockquote>
@@ -448,7 +448,7 @@
   </entry>
   <entry>
     <title>值得收藏的网址，总会有你用到的。</title>
-    <url>/2020/05/09/%E5%80%BC%E5%BE%97%E6%94%B6%E8%97%8F%E7%9A%84%E7%BD%91%E5%9D%80%EF%BC%8C%E6%80%BB%E4%BC%9A%E6%9C%89%E4%BD%A0%E7%94%A8%E5%88%B0%E7%9A%84%E3%80%82/</url>
+    <url>/blog/2020/05/09/%E5%80%BC%E5%BE%97%E6%94%B6%E8%97%8F%E7%9A%84%E7%BD%91%E5%9D%80%EF%BC%8C%E6%80%BB%E4%BC%9A%E6%9C%89%E4%BD%A0%E7%94%A8%E5%88%B0%E7%9A%84%E3%80%82/</url>
     <content><![CDATA[<blockquote>
 <p>相见恨晚的超实用网址，赶紧get下来，总会有你用到的。</p>
 </blockquote>
@@ -579,7 +579,7 @@
   </entry>
   <entry>
     <title>python字符串操作</title>
-    <url>/2020/05/08/python%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/</url>
+    <url>/blog/2020/05/08/python%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/</url>
     <content><![CDATA[<blockquote>
 <p>python字符串操作总结</p>
 </blockquote>
@@ -629,7 +629,7 @@
   </entry>
   <entry>
     <title>Python2.7之常用内置函数（二）</title>
-    <url>/2020/05/08/python27%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
+    <url>/blog/2020/05/08/python27%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
     <content><![CDATA[<blockquote>
 <p>Python 作为一门高级编程语言，为我们提供了许多方便易用的内置函数，节省了不少开发应用的时间。因而，摘出必备函数及其用法以备后用。</p>
 </blockquote>
@@ -659,7 +659,7 @@
   </entry>
   <entry>
     <title>Python2.7之常用内置函数（一）</title>
-    <url>/2020/05/08/python27%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+    <url>/blog/2020/05/08/python27%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%EF%BC%88%E4%B8%80%EF%BC%89/</url>
     <content><![CDATA[<blockquote>
 <p>Python 作为一门高级编程语言，为我们提供了许多方便易用的内置函数，节省了不少开发应用的时间。因而，摘出必备函数及其用法以备后用。</p>
 </blockquote>
@@ -745,7 +745,7 @@
   </entry>
   <entry>
     <title>搭建Hexo博客</title>
-    <url>/2020/05/07/blog/</url>
+    <url>/blog/2020/05/07/blog/</url>
     <content><![CDATA[<blockquote>
 <p>选用next主题，搭建Hexo博客。不适合新手，备忘而已。</p>
 </blockquote>
@@ -765,7 +765,7 @@
   </entry>
   <entry>
     <title>idea开发工具</title>
-    <url>/2020/05/07/idea-tools/</url>
+    <url>/blog/2020/05/07/idea-tools/</url>
     <content><![CDATA[<blockquote>
 <p>开发工具有很多，我只选择Idea。</p>
 </blockquote>
