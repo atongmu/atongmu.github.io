@@ -1,149 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>idea开发工具</title>
-    <url>/2020/05/07/idea-tools/</url>
-    <content><![CDATA[<blockquote>
-<p>开发工具有很多，我只选择Idea。</p>
-</blockquote>
-<a id="more"></a>
-
-<p>学习参考: <a href="http://idea.medeming.com/jihuoma/" target="_blank" rel="noopener">文本</a></p>
-<h3 id="此链接仅供学习交流，不准用于商业用户。"><a href="#此链接仅供学习交流，不准用于商业用户。" class="headerlink" title="此链接仅供学习交流，不准用于商业用户。"></a>此链接仅供学习交流，不准用于商业用户。</h3><h3 id="本站不承担任何责任"><a href="#本站不承担任何责任" class="headerlink" title="本站不承担任何责任"></a>本站不承担任何责任</h3>]]></content>
-      <categories>
-        <category>tools</category>
-      </categories>
-      <tags>
-        <tag>idea</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>搭建Hexo博客</title>
-    <url>/2020/05/07/blog/</url>
-    <content><![CDATA[<blockquote>
-<p>选用next主题，搭建Hexo博客。不适合新手，备忘而已。</p>
-</blockquote>
-<a id="more"></a>
-
-<h1 id="Hexo-安装"><a href="#Hexo-安装" class="headerlink" title="Hexo 安装"></a>Hexo 安装</h1><p><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo 文档</a></p>
-<h1 id="Next-安装"><a href="#Next-安装" class="headerlink" title="Next 安装"></a>Next 安装</h1><p><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">Next 文档</a></p>
-<h1 id="Next-美化"><a href="#Next-美化" class="headerlink" title="Next 美化"></a>Next 美化</h1><p><a href="http://shenzekun.cn/hexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.html" target="_blank" rel="noopener">美化 文档</a></p>
-<p><a href="https://io-oi.me/tech/hexo-next-optimization/#top" target="_blank" rel="noopener">美化 文档</a></p>
-]]></content>
-      <categories>
-        <category>blog</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>python优雅代码编写之if语句高级写法</title>
-    <url>/2020/05/15/python%E4%BC%98%E9%9B%85%E4%BB%A3%E7%A0%81%E7%BC%96%E5%86%99%E4%B9%8Bif%E8%AF%AD%E5%8F%A5%E9%AB%98%E7%BA%A7%E5%86%99%E6%B3%95/</url>
-    <content><![CDATA[<blockquote>
-<p>无论是哪种语言，只要涉及到编程语言，if语句是必不可少的，python宗旨是以最少的代码实现功能，下面总结了一些if语句高级写法，也可以留言提供更多写法。</p>
-</blockquote>
-<a id="more"></a>
-
-<p><em>举个例子</em></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> mark&gt;<span class="number">59</span>:</span><br><span class="line">	<span class="keyword">return</span> <span class="string">'及格'</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">	retrun <span class="string">'不及格'</span></span><br></pre></td></tr></table></figure>
-
-
-<h2 id="第一种写法（个人推荐）"><a href="#第一种写法（个人推荐）" class="headerlink" title="第一种写法（个人推荐）"></a>第一种写法（个人推荐）</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark1 = <span class="number">99</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark2 = <span class="number">59</span></span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark1 = <span class="string">'及格'</span> <span class="keyword">if</span> mark1 &gt;<span class="number">59</span> <span class="keyword">else</span> <span class="string">'不及格'</span></span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark1</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>及格</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark2 = <span class="string">'及格'</span> <span class="keyword">if</span> mark1 &gt;<span class="number">59</span> <span class="keyword">else</span> <span class="string">'不及格'</span></span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark2</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>不及格</span><br></pre></td></tr></table></figure>
-
-<h2 id="第二种写法"><a href="#第二种写法" class="headerlink" title="第二种写法"></a>第二种写法</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark1 = (<span class="string">"不及格"</span>, <span class="string">"及格"</span>)[mark1 &gt; <span class="number">59</span>]</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark1</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>及格</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark2 = (<span class="string">"不及格"</span>, <span class="string">"及格"</span>)[mark2 &gt; <span class="number">59</span>]</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark2</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>不及格</span><br></pre></td></tr></table></figure>
-
-<h2 id="第三种写法"><a href="#第三种写法" class="headerlink" title="第三种写法"></a>第三种写法</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark1 = (<span class="keyword">lambda</span>:<span class="string">"不及格"</span>, <span class="keyword">lambda</span>:<span class="string">"及格"</span>)[mark1 &gt; <span class="number">59</span>]()</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark1</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>及格</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark2 = (<span class="keyword">lambda</span>:<span class="string">"不及格"</span>, <span class="keyword">lambda</span>:<span class="string">"及格"</span>)[mark2 &gt; <span class="number">59</span>]()</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark2</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>不及格</span><br></pre></td></tr></table></figure>
-
-<h2 id="第四种写法"><a href="#第四种写法" class="headerlink" title="第四种写法"></a>第四种写法</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark1 = &#123;<span class="literal">True</span>: <span class="string">"不及格"</span>, <span class="literal">False</span>: <span class="string">"及格"</span>&#125;[mark1 &gt; <span class="number">59</span>]</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark1</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>及格</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark2 = &#123;<span class="literal">True</span>: <span class="string">"不及格"</span>, <span class="literal">False</span>: <span class="string">"及格"</span>&#125;[mark2 &gt; <span class="number">59</span>]</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark2</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>不及格</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-        <tag>Python if语句高级写法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>python优雅代码编写之一行搞定</title>
-    <url>/2020/05/15/python%E4%BC%98%E9%9B%85%E4%BB%A3%E7%A0%81%E7%BC%96%E5%86%99%E4%B9%8B%E4%B8%80%E8%A1%8C%E6%90%9E%E5%AE%9A/</url>
-    <content><![CDATA[<blockquote>
-<p>python 以代码量少而出名，这次再归整一奈奈知识点，一行搞定代码，绝不多写。</p>
-</blockquote>
-<a id="more"></a>
-
-
-<h2 id="累加求和"><a href="#累加求和" class="headerlink" title="累加求和"></a>累加求和</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>sum(range(<span class="number">0</span>,<span class="number">100</span>))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">5050</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="列表去重"><a href="#列表去重" class="headerlink" title="列表去重"></a>列表去重</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>list1 = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">4</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]</span><br><span class="line">&gt;&gt;&gt;	list(set(list1))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]</span><br></pre></td></tr></table></figure>
-
-<h2 id="列表推导式"><a href="#列表推导式" class="headerlink" title="列表推导式"></a>列表推导式</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>list1 = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">4</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]</span><br><span class="line">&gt;&gt;&gt;	[i <span class="keyword">for</span> i <span class="keyword">in</span> list1 <span class="keyword">if</span> i&gt;<span class="number">3</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>[<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]</span><br></pre></td></tr></table></figure>
-
-<h2 id="元素排序"><a href="#元素排序" class="headerlink" title="元素排序"></a>元素排序</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>list1 = [<span class="string">'11'</span>,<span class="string">'1231233123'</span>,<span class="string">'2121'</span>]</span><br><span class="line">&gt;&gt;&gt;	list1.sort(key=len)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>[<span class="string">'11'</span>, <span class="string">'2121'</span>, <span class="string">'1231233123'</span>]</span><br></pre></td></tr></table></figure>
-
-<h2 id="字符次数统计"><a href="#字符次数统计" class="headerlink" title="字符次数统计"></a>字符次数统计</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>str1 = <span class="string">'asdfasdfasdfdsafasfddsadf'</span></span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> str1.count(<span class="string">'a'</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">6</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="两种方法除去空格"><a href="#两种方法除去空格" class="headerlink" title="两种方法除去空格"></a>两种方法除去空格</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>str1 = <span class="string">'asdfasdfas dfdsafa sfddsa df'</span></span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> str1.replace(<span class="string">' '</span>,<span class="string">''</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">'asdfasdfasdfdsafasfddsadf'</span></span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>str1 = <span class="string">'asdfasdfas dfdsafa sfddsa df'</span></span><br><span class="line">&gt;&gt;&gt;	<span class="string">''</span>.jon(str1.split(<span class="string">' '</span>))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">'asdfasdfasdfdsafasfddsadf'</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-        <tag>Python 一行搞定</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>python字符串操作</title>
-    <url>/2020/05/08/python%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/</url>
-    <content><![CDATA[<blockquote>
-<p>python字符串操作总结</p>
-</blockquote>
-<a id="more"></a>
-
-<h1 id="一-字符串去空格及去指定字符"><a href="#一-字符串去空格及去指定字符" class="headerlink" title="(一) 字符串去空格及去指定字符"></a>(一) 字符串去空格及去指定字符</h1><ol>
-<li>strip([‘str’])            #去两边的字符串’str’。</li>
-<li>lstrip([‘str’])           #去左边的字符串’str’。</li>
-<li>rstrip([‘str’])           #去右边的字符串’str’。</li>
-<li>split([‘str’])            #按指定字符’str’分隔进行切片。</li>
-</ol>
-<p><em>注：字符’str’的默认值是空格</em></p>
-<h1 id="二-字符串判断"><a href="#二-字符串判断" class="headerlink" title="(二) 字符串判断"></a>(二) 字符串判断</h1><ol>
-<li>startswith(‘str’)         #判断是否以str开头，是则返回True，否则返回False。</li>
-<li>endswith(‘str’)           #判断是否以str结尾，是则返回True，否则返回False。</li>
-<li>isalnum()                 #判断是否全为字母或数字，是则返回True，否则返回False。</li>
-<li>isalpha()                 #判断是否全字母，是则返回True，否则返回False。</li>
-<li>isdigit()                 #判断是否全数字，是则返回True，否则返回False。</li>
-<li>islower()                 #判断字母是否全为小写，是则返回True，否则i返回False。</li>
-<li>isupper()                 #判断字母是否全为大写，是则返回True，否则返回False。</li>
-</ol>
-<h1 id="三-字符串替换"><a href="#三-字符串替换" class="headerlink" title="(三) 字符串替换"></a>(三) 字符串替换</h1><ol>
-<li>replace(‘old’,’new’)                #将字符串内的old替换为new。</li>
-<li>replace(‘old’,’new’[,count])        #指定old的位置进行替换。</li>
-</ol>
-<h1 id="四-字符串搜索"><a href="#四-字符串搜索" class="headerlink" title="(四) 字符串搜索"></a>(四) 字符串搜索</h1><ol>
-<li>find(str[,start[,end]])      #检测str是否在字符串中，若是返回索引值，不是返回-1，范围从start到end。</li>
-<li>rfind(str[,start[,end]])     #类似于find的方法，不过是从右边开始查找。</li>
-<li>count(str[,start[,end]])     #返回str在字符串出现的次数，范围从start到end。</li>
-<li>index(str[,start[,end]])     #与find类似，但查找不到不会返回-1，而是异常，故建议不要用这个。</li>
-</ol>
-<p><em>注：start的默认值为0，end的默认值是字符串最尾端；</em></p>
-<h1 id="五-字母处理"><a href="#五-字母处理" class="headerlink" title="(五) 字母处理"></a>(五) 字母处理</h1><ol>
-<li>capitalize()      #把字符串第一个字符改成大写，其余小写。</li>
-<li>lower()           #转换字符串所有大写字符为小写。</li>
-<li>upper()           #转换字符串所有小写字符为大写。</li>
-<li>swapcase()        #翻转字符串的大小写。</li>
-<li>title()           #把字符串第一个字符改成大写。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python字符串操作</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Flask学习专栏</title>
     <url>/2020/05/11/Flask%E5%AD%A6%E4%B9%A0%E4%B8%93%E6%A0%8F/</url>
     <content><![CDATA[<blockquote>
@@ -214,6 +71,159 @@
       </tags>
   </entry>
   <entry>
+    <title>搭建Hexo博客</title>
+    <url>/2020/05/07/blog/</url>
+    <content><![CDATA[<blockquote>
+<p>选用next主题，搭建Hexo博客。不适合新手，备忘而已。</p>
+</blockquote>
+<a id="more"></a>
+
+<h1 id="Hexo-安装"><a href="#Hexo-安装" class="headerlink" title="Hexo 安装"></a>Hexo 安装</h1><p><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo 文档</a></p>
+<h1 id="Next-安装"><a href="#Next-安装" class="headerlink" title="Next 安装"></a>Next 安装</h1><p><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">Next 文档</a></p>
+<h1 id="Next-美化"><a href="#Next-美化" class="headerlink" title="Next 美化"></a>Next 美化</h1><p><a href="http://shenzekun.cn/hexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.html" target="_blank" rel="noopener">美化 文档</a></p>
+<p><a href="https://io-oi.me/tech/hexo-next-optimization/#top" target="_blank" rel="noopener">美化 文档</a></p>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>idea开发工具</title>
+    <url>/2020/05/07/idea-tools/</url>
+    <content><![CDATA[<blockquote>
+<p>开发工具有很多，我只选择Idea。</p>
+</blockquote>
+<a id="more"></a>
+
+<p>学习参考: <a href="http://idea.medeming.com/jihuoma/" target="_blank" rel="noopener">文本</a></p>
+<h3 id="此链接仅供学习交流，不准用于商业用户。"><a href="#此链接仅供学习交流，不准用于商业用户。" class="headerlink" title="此链接仅供学习交流，不准用于商业用户。"></a>此链接仅供学习交流，不准用于商业用户。</h3><h3 id="本站不承担任何责任"><a href="#本站不承担任何责任" class="headerlink" title="本站不承担任何责任"></a>本站不承担任何责任</h3>]]></content>
+      <categories>
+        <category>tools</category>
+      </categories>
+      <tags>
+        <tag>idea</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python优雅代码编写之一行搞定</title>
+    <url>/2020/05/15/python%E4%BC%98%E9%9B%85%E4%BB%A3%E7%A0%81%E7%BC%96%E5%86%99%E4%B9%8B%E4%B8%80%E8%A1%8C%E6%90%9E%E5%AE%9A/</url>
+    <content><![CDATA[<blockquote>
+<p>python 以代码量少而出名，这次再归整一奈奈知识点，一行搞定代码，绝不多写。</p>
+</blockquote>
+<a id="more"></a>
+
+
+<h2 id="累加求和"><a href="#累加求和" class="headerlink" title="累加求和"></a>累加求和</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>sum(range(<span class="number">0</span>,<span class="number">100</span>))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">5050</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="列表去重"><a href="#列表去重" class="headerlink" title="列表去重"></a>列表去重</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>list1 = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">4</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]</span><br><span class="line">&gt;&gt;&gt;	list(set(list1))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]</span><br></pre></td></tr></table></figure>
+
+<h2 id="列表推导式"><a href="#列表推导式" class="headerlink" title="列表推导式"></a>列表推导式</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>list1 = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">4</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]</span><br><span class="line">&gt;&gt;&gt;	[i <span class="keyword">for</span> i <span class="keyword">in</span> list1 <span class="keyword">if</span> i&gt;<span class="number">3</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>[<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]</span><br></pre></td></tr></table></figure>
+
+<h2 id="元素排序"><a href="#元素排序" class="headerlink" title="元素排序"></a>元素排序</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>list1 = [<span class="string">'11'</span>,<span class="string">'1231233123'</span>,<span class="string">'2121'</span>]</span><br><span class="line">&gt;&gt;&gt;	list1.sort(key=len)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>[<span class="string">'11'</span>, <span class="string">'2121'</span>, <span class="string">'1231233123'</span>]</span><br></pre></td></tr></table></figure>
+
+<h2 id="字符次数统计"><a href="#字符次数统计" class="headerlink" title="字符次数统计"></a>字符次数统计</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>str1 = <span class="string">'asdfasdfasdfdsafasfddsadf'</span></span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> str1.count(<span class="string">'a'</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">6</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="两种方法除去空格"><a href="#两种方法除去空格" class="headerlink" title="两种方法除去空格"></a>两种方法除去空格</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>str1 = <span class="string">'asdfasdfas dfdsafa sfddsa df'</span></span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> str1.replace(<span class="string">' '</span>,<span class="string">''</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">'asdfasdfasdfdsafasfddsadf'</span></span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>str1 = <span class="string">'asdfasdfas dfdsafa sfddsa df'</span></span><br><span class="line">&gt;&gt;&gt;	<span class="string">''</span>.jon(str1.split(<span class="string">' '</span>))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="string">'asdfasdfasdfdsafasfddsadf'</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+        <tag>Python 一行搞定</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python优雅代码编写技巧笔录</title>
+    <url>/2020/05/11/python%E4%BC%98%E9%9B%85%E4%BB%A3%E7%A0%81%E7%BC%96%E5%86%99%E6%8A%80%E5%B7%A7%E7%AC%94%E5%BD%95/</url>
+    <content><![CDATA[<blockquote>
+<p>优雅代码编写是一个循序渐进的过程，要不断地总结归纳。</p>
+</blockquote>
+<a id="more"></a>
+
+<h2 id="简化导入模块名"><a href="#简化导入模块名" class="headerlink" title="简化导入模块名"></a>简化导入模块名</h2><p><em>简化调用代码， 更简单！</em></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#Bad code</span></span><br><span class="line"><span class="keyword">import</span> urllib.request</span><br><span class="line">url = <span class="string">r'http://www.csdn.com'</span></span><br><span class="line">req = urllib.request.Request(url)</span><br><span class="line">response = urllib.request.urlopen(req)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#Good code</span></span><br><span class="line"><span class="keyword">from</span> urllib <span class="keyword">import</span> request </span><br><span class="line">url = <span class="string">r'http://www.csdn.com'</span></span><br><span class="line">req = request.Request(url)</span><br><span class="line">response = request.urlopen(req)</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="合并字符串"><a href="#合并字符串" class="headerlink" title="合并字符串"></a>合并字符串</h2><p> <em>这是一个老生常谈的问题，当我们需要将数个字符串合并的时候，习惯性的使用”+”作为连接字符串的手段。</em></p>
+<p> <em>然而，由于不可变对象在内存中生成后无法修改，合并后的字符串会重新开辟出一块内存空间来存储。这样像滚雪球一样，将内存快速消耗殆尽。</em></p>
+ <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"> <span class="comment"># Bad code</span></span><br><span class="line">string = [<span class="string">'a'</span>,<span class="string">'b'</span>,<span class="string">'c'</span>,<span class="string">'d'</span>,<span class="string">'e'</span>,<span class="string">'f'</span>,<span class="string">'g'</span>,<span class="string">'h'</span>]</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fun</span><span class="params">(string)</span>:</span></span><br><span class="line">    all_string = <span class="string">''</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> string:</span><br><span class="line">        all_string += i</span><br><span class="line">    <span class="keyword">return</span> all_string</span><br><span class="line"> </span><br><span class="line"><span class="comment"># Good code  更简洁安全</span></span><br><span class="line">string = [<span class="string">'a'</span>,<span class="string">'b'</span>,<span class="string">'c'</span>,<span class="string">'d'</span>,<span class="string">'e'</span>,<span class="string">'f'</span>,<span class="string">'g,'</span>h<span class="string">']</span></span><br><span class="line"><span class="string">def fun(string):</span></span><br><span class="line"><span class="string">    all_string = '</span><span class="string">'.join(string)</span></span><br><span class="line"><span class="string">    return all_string</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="列表推导式"><a href="#列表推导式" class="headerlink" title="列表推导式"></a>列表推导式</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>chars = [ c <span class="keyword">for</span> c <span class="keyword">in</span> <span class="string">'python'</span> ]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>chars</span><br><span class="line">[<span class="string">'p'</span>, <span class="string">'y'</span>, <span class="string">'t'</span>, <span class="string">'h'</span>, <span class="string">'o'</span>, <span class="string">'n'</span>]</span><br></pre></td></tr></table></figure>
+
+<h2 id="字典推导式"><a href="#字典推导式" class="headerlink" title="字典推导式"></a>字典推导式</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>dict1 = &#123;<span class="string">'a'</span>: <span class="number">1</span>, <span class="string">'b'</span>: <span class="number">2</span>, <span class="string">'c'</span>: <span class="number">3</span>, <span class="string">'d'</span>: <span class="number">4</span>, <span class="string">'e'</span>: <span class="number">5</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>double_dict1 = &#123;k:v*<span class="number">2</span> <span class="keyword">for</span> (k,v) <span class="keyword">in</span> dict1.items()&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>double_dict1</span><br><span class="line">&#123;<span class="string">'a'</span>: <span class="number">2</span>, <span class="string">'b'</span>: <span class="number">4</span>, <span class="string">'c'</span>: <span class="number">6</span>, <span class="string">'d'</span>: <span class="number">8</span>, <span class="string">'e'</span>: <span class="number">10</span>&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="集合推导式"><a href="#集合推导式" class="headerlink" title="集合推导式"></a>集合推导式</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>set1 = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>double_set = &#123;i*<span class="number">2</span> <span class="keyword">for</span> i <span class="keyword">in</span> set1&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>double_set</span><br><span class="line">&#123;<span class="number">8</span>, <span class="number">2</span>, <span class="number">4</span>, <span class="number">6</span>&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="合并字典"><a href="#合并字典" class="headerlink" title="合并字典"></a>合并字典</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>x = &#123;<span class="string">'a'</span>:<span class="number">1</span>,<span class="string">'b'</span>:<span class="number">2</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>y = &#123;<span class="string">'c'</span>:<span class="number">3</span>, <span class="string">'d'</span>:<span class="number">4</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>z = &#123;**x, **y&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>z</span><br><span class="line">&#123;<span class="string">'a'</span>: <span class="number">1</span>, <span class="string">'b'</span>: <span class="number">2</span>, <span class="string">'c'</span>: <span class="number">3</span>, <span class="string">'d'</span>: <span class="number">4</span>&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="复制列表"><a href="#复制列表" class="headerlink" title="复制列表"></a>复制列表</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>nums = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>nums[::]</span><br><span class="line">[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>copy_nums = nums[::]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>copy_nums</span><br><span class="line">[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br></pre></td></tr></table></figure>
+
+<h2 id="高级拆包"><a href="#高级拆包" class="headerlink" title="高级拆包"></a>高级拆包</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>a, *b = <span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a</span><br><span class="line"><span class="number">1</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>b</span><br><span class="line">[<span class="number">2</span>, <span class="number">3</span>]</span><br></pre></td></tr></table></figure>
+<p><em>或者</em></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>a, *b, c = <span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a</span><br><span class="line"><span class="number">1</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>b</span><br><span class="line">[<span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>c</span><br><span class="line"><span class="number">5</span></span><br></pre></td></tr></table></figure>
+
+
+<h2 id="函数返回多个值（其实是自动packing成元组）然后unpacking赋值给4个变量"><a href="#函数返回多个值（其实是自动packing成元组）然后unpacking赋值给4个变量" class="headerlink" title="函数返回多个值（其实是自动packing成元组）然后unpacking赋值给4个变量"></a>函数返回多个值（其实是自动packing成元组）然后unpacking赋值给4个变量</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="function"><span class="keyword">def</span> <span class="title">f</span><span class="params">()</span>:</span></span><br><span class="line"><span class="meta">... </span>    <span class="keyword">return</span> <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span></span><br><span class="line">...</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a, b, c, d = f()</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a</span><br><span class="line"><span class="number">1</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d</span><br><span class="line"><span class="number">4</span></span><br></pre></td></tr></table></figure>
+<h2 id="in-代替-or"><a href="#in-代替-or" class="headerlink" title="in 代替 or"></a>in 代替 or</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">if</span> x == <span class="number">1</span> <span class="keyword">or</span> x == <span class="number">2</span> <span class="keyword">or</span> x == <span class="number">3</span>:</span><br><span class="line"><span class="meta">... </span>    <span class="keyword">pass</span></span><br><span class="line">...</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">if</span> x <span class="keyword">in</span> (<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>):</span><br><span class="line"><span class="meta">... </span>    <span class="keyword">pass</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="使用字典映射来替换条件搜索（字典代替多个if-else）"><a href="#使用字典映射来替换条件搜索（字典代替多个if-else）" class="headerlink" title="使用字典映射来替换条件搜索（字典代替多个if else）"></a>使用字典映射来替换条件搜索（字典代替多个if else）</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fun</span><span class="params">(x)</span>:</span></span><br><span class="line">    <span class="keyword">if</span> x == <span class="string">'a'</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span></span><br><span class="line">    <span class="keyword">elif</span> x == <span class="string">'b'</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="number">2</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">None</span></span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fun</span><span class="params">(x)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> &#123;<span class="string">"a"</span>: <span class="number">1</span>, <span class="string">"b"</span>: <span class="number">2</span>&#125;.get(x)</span><br></pre></td></tr></table></figure>
+
+<h2 id="判断对象类型，可指定多个类型"><a href="#判断对象类型，可指定多个类型" class="headerlink" title="判断对象类型，可指定多个类型"></a>判断对象类型，可指定多个类型</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>isinstance(a, (int, str))</span><br><span class="line"><span class="literal">True</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="str-与-repr-区别"><a href="#str-与-repr-区别" class="headerlink" title="__str__ 与 __repr__ 区别"></a><code>__str__</code> 与 <code>__repr__</code> 区别</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>str(datetime.now())</span><br><span class="line"><span class="string">'2018-11-20 00:31:54.839605'</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>repr(datetime.now())</span><br><span class="line"><span class="string">'datetime.datetime(2018, 11, 20, 0, 32, 0, 579521)'</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="强大的zip"><a href="#强大的zip" class="headerlink" title="强大的zip()"></a>强大的zip()</h2><p><em>它是Python的内建函数，zip函数接受任意多个（包括0个和1个）序列作为参数，返回一个包含tuple的list。zip()函数可以在很多场景简化你的代码。</em></p>
+<ul>
+<li>矩阵的行列互换</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Bad code</span></span><br><span class="line">a = [[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>], [<span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>], [<span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>]]</span><br><span class="line">re_a = [[row[col] <span class="keyword">for</span> row <span class="keyword">in</span> a] <span class="keyword">for</span> col <span class="keyword">in</span> range(len(a))]</span><br><span class="line"> </span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>[[<span class="number">1</span>, <span class="number">4</span>, <span class="number">7</span>], [<span class="number">2</span>, <span class="number">5</span>, <span class="number">8</span>], [<span class="number">3</span>, <span class="number">6</span>, <span class="number">9</span>]]</span><br><span class="line"> </span><br><span class="line"><span class="comment"># Good code</span></span><br><span class="line">a = [[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>], [<span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>], [<span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>]]</span><br><span class="line">re_a = list(zip(*a))</span><br><span class="line"> </span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>[[<span class="number">1</span>, <span class="number">4</span>, <span class="number">7</span>], [<span class="number">2</span>, <span class="number">5</span>, <span class="number">8</span>], [<span class="number">3</span>, <span class="number">6</span>, <span class="number">9</span>]]</span><br></pre></td></tr></table></figure>
+<ul>
+<li>交换dict的键值</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Bad code</span></span><br><span class="line">a = &#123;<span class="string">'a'</span>: <span class="number">1</span>, <span class="string">'b'</span>: <span class="number">2</span>, <span class="string">'c'</span>: <span class="number">3</span>, <span class="string">'d'</span>: <span class="number">4</span>&#125;</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">reverse_dict</span><span class="params">(a)</span>:</span></span><br><span class="line">    new_dict = &#123;&#125;</span><br><span class="line">    <span class="keyword">for</span> k,v <span class="keyword">in</span> m.items():</span><br><span class="line">        new_dict[v] = k</span><br><span class="line">    <span class="keyword">return</span> new_dict</span><br><span class="line"> </span><br><span class="line"><span class="comment"># Good code</span></span><br><span class="line">a = &#123;<span class="string">'a'</span>: <span class="number">1</span>, <span class="string">'b'</span>: <span class="number">2</span>, <span class="string">'c'</span>: <span class="number">3</span>, <span class="string">'d'</span>: <span class="number">4</span>&#125;</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">reverse_dict</span><span class="params">(a)</span>:</span></span><br><span class="line">    k = a.keys()</span><br><span class="line">    v = a.values()</span><br><span class="line">    new_dict = dict(zip(v, k))</span><br><span class="line">    <span class="keyword">return</span> new_dict</span><br></pre></td></tr></table></figure>
+
+<h2 id="变量值交换"><a href="#变量值交换" class="headerlink" title="变量值交换"></a>变量值交换</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Bad</span></span><br><span class="line">tmp = a</span><br><span class="line">a = b</span><br><span class="line">b = tmp</span><br><span class="line"> </span><br><span class="line"><span class="comment">#Good</span></span><br><span class="line">a, b = b, a</span><br></pre></td></tr></table></figure>
+
+<h2 id="在循环中获取索引-数组下标"><a href="#在循环中获取索引-数组下标" class="headerlink" title="在循环中获取索引(数组下标)"></a>在循环中获取索引(数组下标)</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = [<span class="number">8</span>, <span class="number">23</span>, <span class="number">45</span>, <span class="number">12</span>, <span class="number">78</span>]</span><br><span class="line"><span class="keyword">for</span> index, value <span class="keyword">in</span> enumerate(a):</span><br><span class="line">    print(index , value)</span><br></pre></td></tr></table></figure>
+
+<h2 id="如何在只用一行捕获多个异常？"><a href="#如何在只用一行捕获多个异常？" class="headerlink" title="如何在只用一行捕获多个异常？"></a>如何在只用一行捕获多个异常？</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="keyword">except</span> (ExceptionA,ExceptionB,.....) <span class="keyword">as</span> e:</span><br><span class="line">    <span class="keyword">pass</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="把列表分割成同样大小的块"><a href="#把列表分割成同样大小的块" class="headerlink" title="把列表分割成同样大小的块"></a>把列表分割成同样大小的块</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>]</span><br><span class="line">list(zip( *[iter(a)]*<span class="number">2</span> ))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>[(<span class="number">1</span>, <span class="number">2</span>), (<span class="number">3</span>, <span class="number">4</span>), (<span class="number">5</span>, <span class="number">6</span>)]</span><br><span class="line"><span class="comment">##  参考 4.zip() 中合并list相邻项</span></span><br><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>]</span><br><span class="line">list(zip( *[iter(a)]*<span class="number">3</span> ))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>[(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>), (<span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>)]</span><br></pre></td></tr></table></figure>
+
+<h2 id="如何查找列表中某个元素的下标"><a href="#如何查找列表中某个元素的下标" class="headerlink" title="如何查找列表中某个元素的下标"></a>如何查找列表中某个元素的下标</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = [<span class="string">'a'</span>, <span class="string">'b'</span>, <span class="string">'c'</span>, <span class="string">'d'</span>, <span class="string">'e'</span>, <span class="string">'f'</span>]</span><br><span class="line">a.index(<span class="string">'a'</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">0</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="如何快速反转字符串"><a href="#如何快速反转字符串" class="headerlink" title="如何快速反转字符串"></a>如何快速反转字符串</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#Bad</span></span><br><span class="line">a = <span class="string">'Python is a powerful languange.'</span></span><br><span class="line">list_a = list(a)</span><br><span class="line">list_a.reverse()</span><br><span class="line">re_a = <span class="string">''</span>.join(list_a) </span><br><span class="line"> </span><br><span class="line"><span class="comment">#Good</span></span><br><span class="line">a = <span class="string">'Python is a powerful languange.'</span></span><br><span class="line">re_a = a[::<span class="number">-1</span>]</span><br></pre></td></tr></table></figure>
+
+<h2 id="数值比较"><a href="#数值比较" class="headerlink" title="数值比较"></a>数值比较</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">x = <span class="number">2</span></span><br><span class="line"><span class="keyword">if</span> <span class="number">1</span>&lt; x &lt;<span class="number">3</span>:</span><br><span class="line">    print(x)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">2</span></span><br><span class="line"><span class="keyword">if</span> <span class="number">1</span>&lt; x &gt;<span class="number">0</span>:</span><br><span class="line">    print(x)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">2</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="优雅的打开文件"><a href="#优雅的打开文件" class="headerlink" title="优雅的打开文件"></a>优雅的打开文件</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">with</span> open(<span class="string">'nothing.txt'</span>,<span class="string">'r'</span>) <span class="keyword">as</span> f:</span><br><span class="line">    f.read()</span><br></pre></td></tr></table></figure>
+
+<h2 id="和你的内存说再见"><a href="#和你的内存说再见" class="headerlink" title="和你的内存说再见"></a>和你的内存说再见</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">crash = dict(zip(range(<span class="number">10</span> **<span class="number">0xA</span>), range(<span class="number">10</span> **<span class="number">0xA</span>)))</span><br></pre></td></tr></table></figure>
+<p><em>用range()生成，不会抛MemoryError，然后进行压缩，再转换成dict，内存很快会消耗干净的，电脑就一动不动了……</em></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">range(<span class="number">10</span> **<span class="number">0xA</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>range(<span class="number">0</span>, <span class="number">10000000000</span>)</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="直接迭代序列元素"><a href="#直接迭代序列元素" class="headerlink" title="直接迭代序列元素"></a>直接迭代序列元素</h2><p><em>对序列（str、list、tuple等），直接迭代序列元素，比迭代元素的索引速度要更快。</em></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line"> </span><br><span class="line"><span class="comment">#迭代元素</span></span><br><span class="line"><span class="keyword">for</span> item <span class="keyword">in</span> a:</span><br><span class="line">   print(item)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#迭代索引</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(len(a)):</span><br><span class="line">   print(a[i])</span><br></pre></td></tr></table></figure>
+
+<h2 id="采用生成器表达式替代列表解析"><a href="#采用生成器表达式替代列表解析" class="headerlink" title="采用生成器表达式替代列表解析"></a>采用生成器表达式替代列表解析</h2><p><em>列表解析（list comprehension），会产生整个列表，对大量数据的迭代会产生负面效应。</em></p>
+<p><em>而生成器表达式则不会，其不会真正创建列表，而是返回一个生成器，在需要时产生一个值（延迟计算），对内存更加友好。</em></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#计算文件f的非空字符个数</span></span><br><span class="line"><span class="comment">#生成器表达式</span></span><br><span class="line">l = sum([len(word) <span class="keyword">for</span> line <span class="keyword">in</span> f <span class="keyword">for</span> word <span class="keyword">in</span> line.split()])</span><br><span class="line"> </span><br><span class="line"><span class="comment">#列表解析</span></span><br><span class="line">l = sum(len(word) <span class="keyword">for</span> line <span class="keyword">in</span> f <span class="keyword">for</span> word <span class="keyword">in</span> line.split())</span><br></pre></td></tr></table></figure>
+
+<h2 id="先编译后调用"><a href="#先编译后调用" class="headerlink" title="先编译后调用"></a>先编译后调用</h2><p><em>使用eval()、exec()函数执行代码时，最好调用代码对象（提前通过compile()函数编译成字节码），而不是直接调用str，可以避免多次执行重复编译过程，提高程序性能。</em></p>
+<p><em>正则表达式模式匹配也类似，也最好先将正则表达式模式编译成regex对象（通过re.complie()函数），然后再执行比较和匹配。</em></p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python2.7之常用内置函数（二）</title>
     <url>/2020/05/08/python27%E4%B9%8B%E5%B8%B8%E7%94%A8%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
     <content><![CDATA[<blockquote>
@@ -241,6 +251,83 @@
       </categories>
       <tags>
         <tag>Python2.7常用函数</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python优雅代码编写之if语句高级写法</title>
+    <url>/2020/05/15/python%E4%BC%98%E9%9B%85%E4%BB%A3%E7%A0%81%E7%BC%96%E5%86%99%E4%B9%8Bif%E8%AF%AD%E5%8F%A5%E9%AB%98%E7%BA%A7%E5%86%99%E6%B3%95/</url>
+    <content><![CDATA[<blockquote>
+<p>无论是哪种语言，只要涉及到编程语言，if语句是必不可少的，python宗旨是以最少的代码实现功能，下面总结了一些if语句高级写法，也可以留言提供更多写法。</p>
+</blockquote>
+<a id="more"></a>
+
+<p><em>举个例子</em></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> mark&gt;<span class="number">59</span>:</span><br><span class="line">	<span class="keyword">return</span> <span class="string">'及格'</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">	retrun <span class="string">'不及格'</span></span><br></pre></td></tr></table></figure>
+
+
+<h2 id="第一种写法（个人推荐）"><a href="#第一种写法（个人推荐）" class="headerlink" title="第一种写法（个人推荐）"></a>第一种写法（个人推荐）</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark1 = <span class="number">99</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark2 = <span class="number">59</span></span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark1 = <span class="string">'及格'</span> <span class="keyword">if</span> mark1 &gt;<span class="number">59</span> <span class="keyword">else</span> <span class="string">'不及格'</span></span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark1</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>及格</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark2 = <span class="string">'及格'</span> <span class="keyword">if</span> mark1 &gt;<span class="number">59</span> <span class="keyword">else</span> <span class="string">'不及格'</span></span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark2</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>不及格</span><br></pre></td></tr></table></figure>
+
+<h2 id="第二种写法"><a href="#第二种写法" class="headerlink" title="第二种写法"></a>第二种写法</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark1 = (<span class="string">"不及格"</span>, <span class="string">"及格"</span>)[mark1 &gt; <span class="number">59</span>]</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark1</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>及格</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark2 = (<span class="string">"不及格"</span>, <span class="string">"及格"</span>)[mark2 &gt; <span class="number">59</span>]</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark2</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>不及格</span><br></pre></td></tr></table></figure>
+
+<h2 id="第三种写法"><a href="#第三种写法" class="headerlink" title="第三种写法"></a>第三种写法</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark1 = (<span class="keyword">lambda</span>:<span class="string">"不及格"</span>, <span class="keyword">lambda</span>:<span class="string">"及格"</span>)[mark1 &gt; <span class="number">59</span>]()</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark1</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>及格</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark2 = (<span class="keyword">lambda</span>:<span class="string">"不及格"</span>, <span class="keyword">lambda</span>:<span class="string">"及格"</span>)[mark2 &gt; <span class="number">59</span>]()</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark2</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>不及格</span><br></pre></td></tr></table></figure>
+
+<h2 id="第四种写法"><a href="#第四种写法" class="headerlink" title="第四种写法"></a>第四种写法</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark1 = &#123;<span class="literal">True</span>: <span class="string">"不及格"</span>, <span class="literal">False</span>: <span class="string">"及格"</span>&#125;[mark1 &gt; <span class="number">59</span>]</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark1</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>及格</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark2 = &#123;<span class="literal">True</span>: <span class="string">"不及格"</span>, <span class="literal">False</span>: <span class="string">"及格"</span>&#125;[mark2 &gt; <span class="number">59</span>]</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark2</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>不及格</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+        <tag>Python if语句高级写法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python字符串操作</title>
+    <url>/2020/05/08/python%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/</url>
+    <content><![CDATA[<blockquote>
+<p>python字符串操作总结</p>
+</blockquote>
+<a id="more"></a>
+
+<h1 id="一-字符串去空格及去指定字符"><a href="#一-字符串去空格及去指定字符" class="headerlink" title="(一) 字符串去空格及去指定字符"></a>(一) 字符串去空格及去指定字符</h1><ol>
+<li>strip([‘str’])            #去两边的字符串’str’。</li>
+<li>lstrip([‘str’])           #去左边的字符串’str’。</li>
+<li>rstrip([‘str’])           #去右边的字符串’str’。</li>
+<li>split([‘str’])            #按指定字符’str’分隔进行切片。</li>
+</ol>
+<p><em>注：字符’str’的默认值是空格</em></p>
+<h1 id="二-字符串判断"><a href="#二-字符串判断" class="headerlink" title="(二) 字符串判断"></a>(二) 字符串判断</h1><ol>
+<li>startswith(‘str’)         #判断是否以str开头，是则返回True，否则返回False。</li>
+<li>endswith(‘str’)           #判断是否以str结尾，是则返回True，否则返回False。</li>
+<li>isalnum()                 #判断是否全为字母或数字，是则返回True，否则返回False。</li>
+<li>isalpha()                 #判断是否全字母，是则返回True，否则返回False。</li>
+<li>isdigit()                 #判断是否全数字，是则返回True，否则返回False。</li>
+<li>islower()                 #判断字母是否全为小写，是则返回True，否则i返回False。</li>
+<li>isupper()                 #判断字母是否全为大写，是则返回True，否则返回False。</li>
+</ol>
+<h1 id="三-字符串替换"><a href="#三-字符串替换" class="headerlink" title="(三) 字符串替换"></a>(三) 字符串替换</h1><ol>
+<li>replace(‘old’,’new’)                #将字符串内的old替换为new。</li>
+<li>replace(‘old’,’new’[,count])        #指定old的位置进行替换。</li>
+</ol>
+<h1 id="四-字符串搜索"><a href="#四-字符串搜索" class="headerlink" title="(四) 字符串搜索"></a>(四) 字符串搜索</h1><ol>
+<li>find(str[,start[,end]])      #检测str是否在字符串中，若是返回索引值，不是返回-1，范围从start到end。</li>
+<li>rfind(str[,start[,end]])     #类似于find的方法，不过是从右边开始查找。</li>
+<li>count(str[,start[,end]])     #返回str在字符串出现的次数，范围从start到end。</li>
+<li>index(str[,start[,end]])     #与find类似，但查找不到不会返回-1，而是异常，故建议不要用这个。</li>
+</ol>
+<p><em>注：start的默认值为0，end的默认值是字符串最尾端；</em></p>
+<h1 id="五-字母处理"><a href="#五-字母处理" class="headerlink" title="(五) 字母处理"></a>(五) 字母处理</h1><ol>
+<li>capitalize()      #把字符串第一个字符改成大写，其余小写。</li>
+<li>lower()           #转换字符串所有大写字符为小写。</li>
+<li>upper()           #转换字符串所有小写字符为大写。</li>
+<li>swapcase()        #翻转字符串的大小写。</li>
+<li>title()           #把字符串第一个字符改成大写。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python字符串操作</tag>
       </tags>
   </entry>
   <entry>
@@ -661,93 +748,6 @@
       </categories>
       <tags>
         <tag>tools</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>python优雅代码编写技巧笔录</title>
-    <url>/2020/05/11/python%E4%BC%98%E9%9B%85%E4%BB%A3%E7%A0%81%E7%BC%96%E5%86%99%E6%8A%80%E5%B7%A7%E7%AC%94%E5%BD%95/</url>
-    <content><![CDATA[<blockquote>
-<p>优雅代码编写是一个循序渐进的过程，要不断地总结归纳。</p>
-</blockquote>
-<a id="more"></a>
-
-<h2 id="简化导入模块名"><a href="#简化导入模块名" class="headerlink" title="简化导入模块名"></a>简化导入模块名</h2><p><em>简化调用代码， 更简单！</em></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#Bad code</span></span><br><span class="line"><span class="keyword">import</span> urllib.request</span><br><span class="line">url = <span class="string">r'http://www.csdn.com'</span></span><br><span class="line">req = urllib.request.Request(url)</span><br><span class="line">response = urllib.request.urlopen(req)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#Good code</span></span><br><span class="line"><span class="keyword">from</span> urllib <span class="keyword">import</span> request </span><br><span class="line">url = <span class="string">r'http://www.csdn.com'</span></span><br><span class="line">req = request.Request(url)</span><br><span class="line">response = request.urlopen(req)</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="合并字符串"><a href="#合并字符串" class="headerlink" title="合并字符串"></a>合并字符串</h2><p> <em>这是一个老生常谈的问题，当我们需要将数个字符串合并的时候，习惯性的使用”+”作为连接字符串的手段。</em></p>
-<p> <em>然而，由于不可变对象在内存中生成后无法修改，合并后的字符串会重新开辟出一块内存空间来存储。这样像滚雪球一样，将内存快速消耗殆尽。</em></p>
- <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"> <span class="comment"># Bad code</span></span><br><span class="line">string = [<span class="string">'a'</span>,<span class="string">'b'</span>,<span class="string">'c'</span>,<span class="string">'d'</span>,<span class="string">'e'</span>,<span class="string">'f'</span>,<span class="string">'g'</span>,<span class="string">'h'</span>]</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fun</span><span class="params">(string)</span>:</span></span><br><span class="line">    all_string = <span class="string">''</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> string:</span><br><span class="line">        all_string += i</span><br><span class="line">    <span class="keyword">return</span> all_string</span><br><span class="line"> </span><br><span class="line"><span class="comment"># Good code  更简洁安全</span></span><br><span class="line">string = [<span class="string">'a'</span>,<span class="string">'b'</span>,<span class="string">'c'</span>,<span class="string">'d'</span>,<span class="string">'e'</span>,<span class="string">'f'</span>,<span class="string">'g,'</span>h<span class="string">']</span></span><br><span class="line"><span class="string">def fun(string):</span></span><br><span class="line"><span class="string">    all_string = '</span><span class="string">'.join(string)</span></span><br><span class="line"><span class="string">    return all_string</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="列表推导式"><a href="#列表推导式" class="headerlink" title="列表推导式"></a>列表推导式</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>chars = [ c <span class="keyword">for</span> c <span class="keyword">in</span> <span class="string">'python'</span> ]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>chars</span><br><span class="line">[<span class="string">'p'</span>, <span class="string">'y'</span>, <span class="string">'t'</span>, <span class="string">'h'</span>, <span class="string">'o'</span>, <span class="string">'n'</span>]</span><br></pre></td></tr></table></figure>
-
-<h2 id="字典推导式"><a href="#字典推导式" class="headerlink" title="字典推导式"></a>字典推导式</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>dict1 = &#123;<span class="string">'a'</span>: <span class="number">1</span>, <span class="string">'b'</span>: <span class="number">2</span>, <span class="string">'c'</span>: <span class="number">3</span>, <span class="string">'d'</span>: <span class="number">4</span>, <span class="string">'e'</span>: <span class="number">5</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>double_dict1 = &#123;k:v*<span class="number">2</span> <span class="keyword">for</span> (k,v) <span class="keyword">in</span> dict1.items()&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>double_dict1</span><br><span class="line">&#123;<span class="string">'a'</span>: <span class="number">2</span>, <span class="string">'b'</span>: <span class="number">4</span>, <span class="string">'c'</span>: <span class="number">6</span>, <span class="string">'d'</span>: <span class="number">8</span>, <span class="string">'e'</span>: <span class="number">10</span>&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="集合推导式"><a href="#集合推导式" class="headerlink" title="集合推导式"></a>集合推导式</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>set1 = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>double_set = &#123;i*<span class="number">2</span> <span class="keyword">for</span> i <span class="keyword">in</span> set1&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>double_set</span><br><span class="line">&#123;<span class="number">8</span>, <span class="number">2</span>, <span class="number">4</span>, <span class="number">6</span>&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="合并字典"><a href="#合并字典" class="headerlink" title="合并字典"></a>合并字典</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>x = &#123;<span class="string">'a'</span>:<span class="number">1</span>,<span class="string">'b'</span>:<span class="number">2</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>y = &#123;<span class="string">'c'</span>:<span class="number">3</span>, <span class="string">'d'</span>:<span class="number">4</span>&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>z = &#123;**x, **y&#125;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>z</span><br><span class="line">&#123;<span class="string">'a'</span>: <span class="number">1</span>, <span class="string">'b'</span>: <span class="number">2</span>, <span class="string">'c'</span>: <span class="number">3</span>, <span class="string">'d'</span>: <span class="number">4</span>&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="复制列表"><a href="#复制列表" class="headerlink" title="复制列表"></a>复制列表</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>nums = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>nums[::]</span><br><span class="line">[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>copy_nums = nums[::]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>copy_nums</span><br><span class="line">[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br></pre></td></tr></table></figure>
-
-<h2 id="高级拆包"><a href="#高级拆包" class="headerlink" title="高级拆包"></a>高级拆包</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>a, *b = <span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a</span><br><span class="line"><span class="number">1</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>b</span><br><span class="line">[<span class="number">2</span>, <span class="number">3</span>]</span><br></pre></td></tr></table></figure>
-<p><em>或者</em></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>a, *b, c = <span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a</span><br><span class="line"><span class="number">1</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>b</span><br><span class="line">[<span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>]</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>c</span><br><span class="line"><span class="number">5</span></span><br></pre></td></tr></table></figure>
-
-
-<h2 id="函数返回多个值（其实是自动packing成元组）然后unpacking赋值给4个变量"><a href="#函数返回多个值（其实是自动packing成元组）然后unpacking赋值给4个变量" class="headerlink" title="函数返回多个值（其实是自动packing成元组）然后unpacking赋值给4个变量"></a>函数返回多个值（其实是自动packing成元组）然后unpacking赋值给4个变量</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="function"><span class="keyword">def</span> <span class="title">f</span><span class="params">()</span>:</span></span><br><span class="line"><span class="meta">... </span>    <span class="keyword">return</span> <span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span></span><br><span class="line">...</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a, b, c, d = f()</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>a</span><br><span class="line"><span class="number">1</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>d</span><br><span class="line"><span class="number">4</span></span><br></pre></td></tr></table></figure>
-<h2 id="in-代替-or"><a href="#in-代替-or" class="headerlink" title="in 代替 or"></a>in 代替 or</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">if</span> x == <span class="number">1</span> <span class="keyword">or</span> x == <span class="number">2</span> <span class="keyword">or</span> x == <span class="number">3</span>:</span><br><span class="line"><span class="meta">... </span>    <span class="keyword">pass</span></span><br><span class="line">...</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">if</span> x <span class="keyword">in</span> (<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>):</span><br><span class="line"><span class="meta">... </span>    <span class="keyword">pass</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="使用字典映射来替换条件搜索（字典代替多个if-else）"><a href="#使用字典映射来替换条件搜索（字典代替多个if-else）" class="headerlink" title="使用字典映射来替换条件搜索（字典代替多个if else）"></a>使用字典映射来替换条件搜索（字典代替多个if else）</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fun</span><span class="params">(x)</span>:</span></span><br><span class="line">    <span class="keyword">if</span> x == <span class="string">'a'</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span></span><br><span class="line">    <span class="keyword">elif</span> x == <span class="string">'b'</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="number">2</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">None</span></span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fun</span><span class="params">(x)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> &#123;<span class="string">"a"</span>: <span class="number">1</span>, <span class="string">"b"</span>: <span class="number">2</span>&#125;.get(x)</span><br></pre></td></tr></table></figure>
-
-<h2 id="判断对象类型，可指定多个类型"><a href="#判断对象类型，可指定多个类型" class="headerlink" title="判断对象类型，可指定多个类型"></a>判断对象类型，可指定多个类型</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>isinstance(a, (int, str))</span><br><span class="line"><span class="literal">True</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="str-与-repr-区别"><a href="#str-与-repr-区别" class="headerlink" title="__str__ 与 __repr__ 区别"></a><code>__str__</code> 与 <code>__repr__</code> 区别</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>str(datetime.now())</span><br><span class="line"><span class="string">'2018-11-20 00:31:54.839605'</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>repr(datetime.now())</span><br><span class="line"><span class="string">'datetime.datetime(2018, 11, 20, 0, 32, 0, 579521)'</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="强大的zip"><a href="#强大的zip" class="headerlink" title="强大的zip()"></a>强大的zip()</h2><p><em>它是Python的内建函数，zip函数接受任意多个（包括0个和1个）序列作为参数，返回一个包含tuple的list。zip()函数可以在很多场景简化你的代码。</em></p>
-<ul>
-<li>矩阵的行列互换</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Bad code</span></span><br><span class="line">a = [[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>], [<span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>], [<span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>]]</span><br><span class="line">re_a = [[row[col] <span class="keyword">for</span> row <span class="keyword">in</span> a] <span class="keyword">for</span> col <span class="keyword">in</span> range(len(a))]</span><br><span class="line"> </span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>[[<span class="number">1</span>, <span class="number">4</span>, <span class="number">7</span>], [<span class="number">2</span>, <span class="number">5</span>, <span class="number">8</span>], [<span class="number">3</span>, <span class="number">6</span>, <span class="number">9</span>]]</span><br><span class="line"> </span><br><span class="line"><span class="comment"># Good code</span></span><br><span class="line">a = [[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>], [<span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>], [<span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>]]</span><br><span class="line">re_a = list(zip(*a))</span><br><span class="line"> </span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>[[<span class="number">1</span>, <span class="number">4</span>, <span class="number">7</span>], [<span class="number">2</span>, <span class="number">5</span>, <span class="number">8</span>], [<span class="number">3</span>, <span class="number">6</span>, <span class="number">9</span>]]</span><br></pre></td></tr></table></figure>
-<ul>
-<li>交换dict的键值</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Bad code</span></span><br><span class="line">a = &#123;<span class="string">'a'</span>: <span class="number">1</span>, <span class="string">'b'</span>: <span class="number">2</span>, <span class="string">'c'</span>: <span class="number">3</span>, <span class="string">'d'</span>: <span class="number">4</span>&#125;</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">reverse_dict</span><span class="params">(a)</span>:</span></span><br><span class="line">    new_dict = &#123;&#125;</span><br><span class="line">    <span class="keyword">for</span> k,v <span class="keyword">in</span> m.items():</span><br><span class="line">        new_dict[v] = k</span><br><span class="line">    <span class="keyword">return</span> new_dict</span><br><span class="line"> </span><br><span class="line"><span class="comment"># Good code</span></span><br><span class="line">a = &#123;<span class="string">'a'</span>: <span class="number">1</span>, <span class="string">'b'</span>: <span class="number">2</span>, <span class="string">'c'</span>: <span class="number">3</span>, <span class="string">'d'</span>: <span class="number">4</span>&#125;</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">reverse_dict</span><span class="params">(a)</span>:</span></span><br><span class="line">    k = a.keys()</span><br><span class="line">    v = a.values()</span><br><span class="line">    new_dict = dict(zip(v, k))</span><br><span class="line">    <span class="keyword">return</span> new_dict</span><br></pre></td></tr></table></figure>
-
-<h2 id="变量值交换"><a href="#变量值交换" class="headerlink" title="变量值交换"></a>变量值交换</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Bad</span></span><br><span class="line">tmp = a</span><br><span class="line">a = b</span><br><span class="line">b = tmp</span><br><span class="line"> </span><br><span class="line"><span class="comment">#Good</span></span><br><span class="line">a, b = b, a</span><br></pre></td></tr></table></figure>
-
-<h2 id="在循环中获取索引-数组下标"><a href="#在循环中获取索引-数组下标" class="headerlink" title="在循环中获取索引(数组下标)"></a>在循环中获取索引(数组下标)</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = [<span class="number">8</span>, <span class="number">23</span>, <span class="number">45</span>, <span class="number">12</span>, <span class="number">78</span>]</span><br><span class="line"><span class="keyword">for</span> index, value <span class="keyword">in</span> enumerate(a):</span><br><span class="line">    print(index , value)</span><br></pre></td></tr></table></figure>
-
-<h2 id="如何在只用一行捕获多个异常？"><a href="#如何在只用一行捕获多个异常？" class="headerlink" title="如何在只用一行捕获多个异常？"></a>如何在只用一行捕获多个异常？</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="keyword">except</span> (ExceptionA,ExceptionB,.....) <span class="keyword">as</span> e:</span><br><span class="line">    <span class="keyword">pass</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="把列表分割成同样大小的块"><a href="#把列表分割成同样大小的块" class="headerlink" title="把列表分割成同样大小的块"></a>把列表分割成同样大小的块</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>]</span><br><span class="line">list(zip( *[iter(a)]*<span class="number">2</span> ))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>[(<span class="number">1</span>, <span class="number">2</span>), (<span class="number">3</span>, <span class="number">4</span>), (<span class="number">5</span>, <span class="number">6</span>)]</span><br><span class="line"><span class="comment">##  参考 4.zip() 中合并list相邻项</span></span><br><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>]</span><br><span class="line">list(zip( *[iter(a)]*<span class="number">3</span> ))</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>[(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>), (<span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>)]</span><br></pre></td></tr></table></figure>
-
-<h2 id="如何查找列表中某个元素的下标"><a href="#如何查找列表中某个元素的下标" class="headerlink" title="如何查找列表中某个元素的下标"></a>如何查找列表中某个元素的下标</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = [<span class="string">'a'</span>, <span class="string">'b'</span>, <span class="string">'c'</span>, <span class="string">'d'</span>, <span class="string">'e'</span>, <span class="string">'f'</span>]</span><br><span class="line">a.index(<span class="string">'a'</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">0</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="如何快速反转字符串"><a href="#如何快速反转字符串" class="headerlink" title="如何快速反转字符串"></a>如何快速反转字符串</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#Bad</span></span><br><span class="line">a = <span class="string">'Python is a powerful languange.'</span></span><br><span class="line">list_a = list(a)</span><br><span class="line">list_a.reverse()</span><br><span class="line">re_a = <span class="string">''</span>.join(list_a) </span><br><span class="line"> </span><br><span class="line"><span class="comment">#Good</span></span><br><span class="line">a = <span class="string">'Python is a powerful languange.'</span></span><br><span class="line">re_a = a[::<span class="number">-1</span>]</span><br></pre></td></tr></table></figure>
-
-<h2 id="数值比较"><a href="#数值比较" class="headerlink" title="数值比较"></a>数值比较</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">x = <span class="number">2</span></span><br><span class="line"><span class="keyword">if</span> <span class="number">1</span>&lt; x &lt;<span class="number">3</span>:</span><br><span class="line">    print(x)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">2</span></span><br><span class="line"><span class="keyword">if</span> <span class="number">1</span>&lt; x &gt;<span class="number">0</span>:</span><br><span class="line">    print(x)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="number">2</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="优雅的打开文件"><a href="#优雅的打开文件" class="headerlink" title="优雅的打开文件"></a>优雅的打开文件</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">with</span> open(<span class="string">'nothing.txt'</span>,<span class="string">'r'</span>) <span class="keyword">as</span> f:</span><br><span class="line">    f.read()</span><br></pre></td></tr></table></figure>
-
-<h2 id="和你的内存说再见"><a href="#和你的内存说再见" class="headerlink" title="和你的内存说再见"></a>和你的内存说再见</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">crash = dict(zip(range(<span class="number">10</span> **<span class="number">0xA</span>), range(<span class="number">10</span> **<span class="number">0xA</span>)))</span><br></pre></td></tr></table></figure>
-<p><em>用range()生成，不会抛MemoryError，然后进行压缩，再转换成dict，内存很快会消耗干净的，电脑就一动不动了……</em></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">range(<span class="number">10</span> **<span class="number">0xA</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>range(<span class="number">0</span>, <span class="number">10000000000</span>)</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="直接迭代序列元素"><a href="#直接迭代序列元素" class="headerlink" title="直接迭代序列元素"></a>直接迭代序列元素</h2><p><em>对序列（str、list、tuple等），直接迭代序列元素，比迭代元素的索引速度要更快。</em></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line"> </span><br><span class="line"><span class="comment">#迭代元素</span></span><br><span class="line"><span class="keyword">for</span> item <span class="keyword">in</span> a:</span><br><span class="line">   print(item)</span><br><span class="line"> </span><br><span class="line"><span class="comment">#迭代索引</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(len(a)):</span><br><span class="line">   print(a[i])</span><br></pre></td></tr></table></figure>
-
-<h2 id="采用生成器表达式替代列表解析"><a href="#采用生成器表达式替代列表解析" class="headerlink" title="采用生成器表达式替代列表解析"></a>采用生成器表达式替代列表解析</h2><p><em>列表解析（list comprehension），会产生整个列表，对大量数据的迭代会产生负面效应。</em></p>
-<p><em>而生成器表达式则不会，其不会真正创建列表，而是返回一个生成器，在需要时产生一个值（延迟计算），对内存更加友好。</em></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#计算文件f的非空字符个数</span></span><br><span class="line"><span class="comment">#生成器表达式</span></span><br><span class="line">l = sum([len(word) <span class="keyword">for</span> line <span class="keyword">in</span> f <span class="keyword">for</span> word <span class="keyword">in</span> line.split()])</span><br><span class="line"> </span><br><span class="line"><span class="comment">#列表解析</span></span><br><span class="line">l = sum(len(word) <span class="keyword">for</span> line <span class="keyword">in</span> f <span class="keyword">for</span> word <span class="keyword">in</span> line.split())</span><br></pre></td></tr></table></figure>
-
-<h2 id="先编译后调用"><a href="#先编译后调用" class="headerlink" title="先编译后调用"></a>先编译后调用</h2><p><em>使用eval()、exec()函数执行代码时，最好调用代码对象（提前通过compile()函数编译成字节码），而不是直接调用str，可以避免多次执行重复编译过程，提高程序性能。</em></p>
-<p><em>正则表达式模式匹配也类似，也最好先将正则表达式模式编译成regex对象（通过re.complie()函数），然后再执行比较和匹配。</em></p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
