@@ -85,33 +85,6 @@
       </tags>
   </entry>
   <entry>
-    <title>python优雅代码编写之if语句高级写法</title>
-    <url>/2020/05/15/python%E4%BC%98%E9%9B%85%E4%BB%A3%E7%A0%81%E7%BC%96%E5%86%99%E4%B9%8Bif%E8%AF%AD%E5%8F%A5%E9%AB%98%E7%BA%A7%E5%86%99%E6%B3%95/</url>
-    <content><![CDATA[<blockquote>
-<p>无论是哪种语言，只要涉及到编程语言，if语句是必不可少的，python宗旨是以最少的代码实现功能，下面总结了一些if语句高级写法，也可以留言提供更多写法。</p>
-</blockquote>
-<a id="more"></a>
-
-<p><em>举个例子</em></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> mark&gt;<span class="number">59</span>:</span><br><span class="line">	<span class="keyword">return</span> <span class="string">'及格'</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">	retrun <span class="string">'不及格'</span></span><br></pre></td></tr></table></figure>
-
-
-<h2 id="第一种写法（个人推荐）"><a href="#第一种写法（个人推荐）" class="headerlink" title="第一种写法（个人推荐）"></a>第一种写法（个人推荐）</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark1 = <span class="number">99</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark2 = <span class="number">59</span></span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark1 = <span class="string">'及格'</span> <span class="keyword">if</span> mark1 &gt;<span class="number">59</span> <span class="keyword">else</span> <span class="string">'不及格'</span></span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark1</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>及格</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark2 = <span class="string">'及格'</span> <span class="keyword">if</span> mark1 &gt;<span class="number">59</span> <span class="keyword">else</span> <span class="string">'不及格'</span></span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark2</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>不及格</span><br></pre></td></tr></table></figure>
-
-<h2 id="第二种写法"><a href="#第二种写法" class="headerlink" title="第二种写法"></a>第二种写法</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark1 = (<span class="string">"不及格"</span>, <span class="string">"及格"</span>)[mark1 &gt; <span class="number">59</span>]</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark1</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>及格</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark2 = (<span class="string">"不及格"</span>, <span class="string">"及格"</span>)[mark2 &gt; <span class="number">59</span>]</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark2</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>不及格</span><br></pre></td></tr></table></figure>
-
-<h2 id="第三种写法"><a href="#第三种写法" class="headerlink" title="第三种写法"></a>第三种写法</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark1 = (<span class="keyword">lambda</span>:<span class="string">"不及格"</span>, <span class="keyword">lambda</span>:<span class="string">"及格"</span>)[mark1 &gt; <span class="number">59</span>]()</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark1</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>及格</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark2 = (<span class="keyword">lambda</span>:<span class="string">"不及格"</span>, <span class="keyword">lambda</span>:<span class="string">"及格"</span>)[mark2 &gt; <span class="number">59</span>]()</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark2</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>不及格</span><br></pre></td></tr></table></figure>
-
-<h2 id="第四种写法"><a href="#第四种写法" class="headerlink" title="第四种写法"></a>第四种写法</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark1 = &#123;<span class="literal">True</span>: <span class="string">"不及格"</span>, <span class="literal">False</span>: <span class="string">"及格"</span>&#125;[mark1 &gt; <span class="number">59</span>]</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark1</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>及格</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark2 = &#123;<span class="literal">True</span>: <span class="string">"不及格"</span>, <span class="literal">False</span>: <span class="string">"及格"</span>&#125;[mark2 &gt; <span class="number">59</span>]</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark2</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>不及格</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-        <tag>Python if语句高级写法</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>python优雅代码编写之一行搞定</title>
     <url>/2020/05/15/python%E4%BC%98%E9%9B%85%E4%BB%A3%E7%A0%81%E7%BC%96%E5%86%99%E4%B9%8B%E4%B8%80%E8%A1%8C%E6%90%9E%E5%AE%9A/</url>
     <content><![CDATA[<blockquote>
@@ -138,6 +111,33 @@
       <tags>
         <tag>Python</tag>
         <tag>Python 一行搞定</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>python优雅代码编写之if语句高级写法</title>
+    <url>/2020/05/15/python%E4%BC%98%E9%9B%85%E4%BB%A3%E7%A0%81%E7%BC%96%E5%86%99%E4%B9%8Bif%E8%AF%AD%E5%8F%A5%E9%AB%98%E7%BA%A7%E5%86%99%E6%B3%95/</url>
+    <content><![CDATA[<blockquote>
+<p>无论是哪种语言，只要涉及到编程语言，if语句是必不可少的，python宗旨是以最少的代码实现功能，下面总结了一些if语句高级写法，也可以留言提供更多写法。</p>
+</blockquote>
+<a id="more"></a>
+
+<p><em>举个例子</em></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> mark&gt;<span class="number">59</span>:</span><br><span class="line">	<span class="keyword">return</span> <span class="string">'及格'</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">	retrun <span class="string">'不及格'</span></span><br></pre></td></tr></table></figure>
+
+
+<h2 id="第一种写法（个人推荐）"><a href="#第一种写法（个人推荐）" class="headerlink" title="第一种写法（个人推荐）"></a>第一种写法（个人推荐）</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark1 = <span class="number">99</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark2 = <span class="number">59</span></span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark1 = <span class="string">'及格'</span> <span class="keyword">if</span> mark1 &gt;<span class="number">59</span> <span class="keyword">else</span> <span class="string">'不及格'</span></span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark1</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>及格</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark2 = <span class="string">'及格'</span> <span class="keyword">if</span> mark1 &gt;<span class="number">59</span> <span class="keyword">else</span> <span class="string">'不及格'</span></span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark2</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>不及格</span><br></pre></td></tr></table></figure>
+
+<h2 id="第二种写法"><a href="#第二种写法" class="headerlink" title="第二种写法"></a>第二种写法</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark1 = (<span class="string">"不及格"</span>, <span class="string">"及格"</span>)[mark1 &gt; <span class="number">59</span>]</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark1</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>及格</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark2 = (<span class="string">"不及格"</span>, <span class="string">"及格"</span>)[mark2 &gt; <span class="number">59</span>]</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark2</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>不及格</span><br></pre></td></tr></table></figure>
+
+<h2 id="第三种写法"><a href="#第三种写法" class="headerlink" title="第三种写法"></a>第三种写法</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark1 = (<span class="keyword">lambda</span>:<span class="string">"不及格"</span>, <span class="keyword">lambda</span>:<span class="string">"及格"</span>)[mark1 &gt; <span class="number">59</span>]()</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark1</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>及格</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark2 = (<span class="keyword">lambda</span>:<span class="string">"不及格"</span>, <span class="keyword">lambda</span>:<span class="string">"及格"</span>)[mark2 &gt; <span class="number">59</span>]()</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark2</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>不及格</span><br></pre></td></tr></table></figure>
+
+<h2 id="第四种写法"><a href="#第四种写法" class="headerlink" title="第四种写法"></a>第四种写法</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark1 = &#123;<span class="literal">True</span>: <span class="string">"不及格"</span>, <span class="literal">False</span>: <span class="string">"及格"</span>&#125;[mark1 &gt; <span class="number">59</span>]</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark1</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>及格</span><br><span class="line">&gt;&gt;&gt;</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>mark2 = &#123;<span class="literal">True</span>: <span class="string">"不及格"</span>, <span class="literal">False</span>: <span class="string">"及格"</span>&#125;[mark2 &gt; <span class="number">59</span>]</span><br><span class="line">&gt;&gt;&gt;	<span class="keyword">print</span> mark2</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>不及格</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+        <tag>Python if语句高级写法</tag>
       </tags>
   </entry>
   <entry>
