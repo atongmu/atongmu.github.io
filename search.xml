@@ -4,7 +4,7 @@
     <title>ubuntu+nginx+flask+vue部署笔记</title>
     <url>/2020/05/29/ubuntu-nginx-flask%E9%83%A8%E7%BD%B2%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<blockquote>
-<p>使用Flask+Vue了一个中后台项目框架，项目完成了基本功能，记录发布到Ubuntu服务器程。</p>
+<p>使用Flask+Vue开发了一个中后台项目框架，项目完成了基本功能，记录发布到Ubuntu服务器步骤。</p>
 </blockquote>
 <a id="more"></a>
 
