@@ -13,7 +13,6 @@
 <li>ubuntu 16.0.4</li>
 <li>python 2.7</li>
 <li>Flask 1.1.1</li>
-<li>Ant Design Pro Vue 1.5.0</li>
 </ul>
 <h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ol>
 <li>更新系统库</li>
@@ -30,9 +29,7 @@
 </ol>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo service nginx start</span><br><span class="line">sudo service nginx supervisor</span><br><span class="line">或</span><br><span class="line">systemctl start nginx</span><br><span class="line">systemctl start supervisor</span><br></pre></td></tr></table></figure>
 
-<h3 id="supervisor相关命令"><a href="#supervisor相关命令" class="headerlink" title="supervisor相关命令"></a>supervisor相关命令</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo supervisorctl status # 查看启动的进程</span><br><span class="line">supervisord -c supervisord.conf  # 指定配置启动</span><br><span class="line">sudo supervisorctl status  # 查看启动的进程状态</span><br><span class="line"># 控制所有进程</span><br><span class="line">sudo supervisorctl start all</span><br><span class="line">sudo supervisorctl stop all</span><br><span class="line">sudo supervisorctl restart all</span><br><span class="line"># 控制目标进程</span><br><span class="line">sudo supervisorctl stop httpRunnerLoan</span><br><span class="line">sudo supervisorctl start httpRunnerLoan</span><br><span class="line">sudo supervisorctl restart httpRunnerLoan</span><br></pre></td></tr></table></figure>
-
-<h3 id="nginx-常用命令"><a href="#nginx-常用命令" class="headerlink" title="nginx 常用命令"></a>nginx 常用命令</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo nginx #打开 nginx</span><br><span class="line">nginx -s reload|reopen|stop|quit #重新加载配置|重启|停止|退出 nginx</span><br></pre></td></tr></table></figure>
+<h3 id="supervisor相关命令"><a href="#supervisor相关命令" class="headerlink" title="supervisor相关命令"></a>supervisor相关命令</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo supervisorctl reload # 重启</span><br><span class="line">sudo supervisorctl shutdown # 关闭</span><br><span class="line">sudo supervisorctl status # 查看启动的进程</span><br><span class="line">supervisord -c supervisord.conf  # 指定配置启动</span><br><span class="line">sudo supervisorctl status  # 查看启动的进程状态</span><br><span class="line"># 控制所有进程</span><br><span class="line">sudo supervisorctl start all</span><br><span class="line">sudo supervisorctl stop all</span><br><span class="line">sudo supervisorctl restart all</span><br><span class="line"># 控制目标进程</span><br><span class="line">sudo supervisorctl stop httpRunnerLoan</span><br><span class="line">sudo supervisorctl start httpRunnerLoan</span><br><span class="line">sudo supervisorctl restart httpRunnerLoan</span><br></pre></td></tr></table></figure>
 
 
 <h2 id="Flask项目发布过程"><a href="#Flask项目发布过程" class="headerlink" title="Flask项目发布过程"></a>Flask项目发布过程</h2><ol>
@@ -62,7 +59,7 @@
 <ol start="6">
 <li>利用supervisor重启uWSGI</li>
 </ol>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo killall uwsgi</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo killall uwsgi</span><br><span class="line"></span><br><span class="line">#通过ps，查看uwsgi相关进程</span><br><span class="line">ps aux|grep uwsgi</span><br></pre></td></tr></table></figure>
 
 <p><em>如果使用 pillow，部署的时候，字体最好放在跟目录下，防止找不到文件,文件名必须保持一致。</em></p>
 <p><img src="http://qiniu.codingfly.site/blog/flask%E9%83%A8%E7%BD%B2_2.png" alt="字体路径"></p>
@@ -76,7 +73,12 @@
 <p><em>同上，为了配合nginx发布多项目</em></p>
 <p><img src="http://qiniu.codingfly.site/blog/flask%E9%83%A8%E7%BD%B2.png" alt="vue-router"></p>
 <h2 id="Nginx-发布项目"><a href="#Nginx-发布项目" class="headerlink" title="Nginx 发布项目"></a>Nginx 发布项目</h2><p><em>root 路径注释掉，为了能够部署多个项目。</em></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F; &#123;</span><br><span class="line">		alias    [设置项目路径];</span><br><span class="line">		index index.html index.htm index.nginx-debian.html;</span><br><span class="line">		try_files $uri $uri&#x2F; @router;</span><br><span class="line">	&#125;</span><br><span class="line"># vue项目</span><br><span class="line">	location &#x2F;&#x2F;[项目前缀] &#123;</span><br><span class="line">		alias    [项目文件目录];</span><br><span class="line">		try_files    $uri $uri&#x2F; &#x2F;[项目前缀]&#x2F;index.html;</span><br><span class="line">		index  index.html index.htm;</span><br><span class="line">	&#125;</span><br><span class="line"># flask 项目</span><br><span class="line">	location &#x2F;[项目前缀] &#123;</span><br><span class="line">		include uwsgi_params;</span><br><span class="line">	uwsgi_param SCRIPT_NAME &#x2F;[项目前缀];</span><br><span class="line">	uwsgi_pass 127.0.0.1:5001;</span><br><span class="line">	uwsgi_param UWSGI_PYHONE &#x2F;[venv文件目录];</span><br><span class="line">	uwsgi_param UWSGI_CHDIR  &#x2F;[项目文件目录];</span><br><span class="line">	uwsgi_param UWSGI_SCRIPT manage:app;</span><br><span class="line">	&#125;</span><br><span class="line">	location @router &#123;</span><br><span class="line">	rewrite ^.*$ &#x2F;index.html last;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">location &#x2F; &#123;</span><br><span class="line">		alias    [设置项目路径];</span><br><span class="line">		index index.html index.htm index.nginx-debian.html;</span><br><span class="line">		try_files $uri $uri&#x2F; @router;</span><br><span class="line">	&#125;</span><br><span class="line"># vue项目</span><br><span class="line">	location &#x2F;&#x2F;[项目前缀] &#123;</span><br><span class="line">		alias    [项目文件目录];</span><br><span class="line">		try_files    $uri $uri&#x2F; &#x2F;[项目前缀]&#x2F;index.html;</span><br><span class="line">		index  index.html index.htm;</span><br><span class="line">	&#125;</span><br><span class="line"># flask 项目</span><br><span class="line">	location &#x2F;[项目前缀] &#123;</span><br><span class="line">		include uwsgi_params;</span><br><span class="line">	uwsgi_param SCRIPT_NAME &#x2F;[项目前缀];</span><br><span class="line">	uwsgi_pass 127.0.0.1:5001;</span><br><span class="line">	uwsgi_param UWSGI_PYHONE &#x2F;[venv文件目录];</span><br><span class="line">	uwsgi_param UWSGI_CHDIR  &#x2F;[项目文件目录];</span><br><span class="line">	uwsgi_param UWSGI_SCRIPT manage:app;</span><br><span class="line">	&#125;</span><br><span class="line">	location @router &#123;</span><br><span class="line">	rewrite ^.*$ &#x2F;index.html last;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>重启nginx服务</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo service nginx restart</span><br></pre></td></tr></table></figure>
+
+<h3 id="nginx-常用命令"><a href="#nginx-常用命令" class="headerlink" title="nginx 常用命令"></a>nginx 常用命令</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo nginx #打开 nginx</span><br><span class="line">nginx -s reload|reopen|stop|quit #重新加载配置|重启|停止|退出 nginx</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>flask</category>
       </categories>
