@@ -1,0 +1,59 @@
+---
+sidebar_position: 1
+---
+就是标题
+
+<!-- Docusaurus theme component -->
+import Space from '@site/src/components/Space';
+
+export const ItemBox = ({img,title,href}) => (
+  <Space
+    alignItems="center"
+    size="10px"
+    style={{
+    width:"200px",
+    minWidth:"150px",
+    height:"65px",
+    margin:"10px",
+    padding:"10px",
+    borderRadius:"5px",
+    boxShadow:"0 1px 4px #ccc",
+    cursor:'pointer'
+    }}
+    onClick={() =>window.open(href)}>
+    <Space><img src={img} style={{width:'45px'}} /></Space>
+    <Space flex="1">{title}</Space>
+  </Space>
+);
+
+<Space ignoreNum={4} flexWrap={'wrap'}>
+<ItemBox 
+img={require('./../assets/ecma.png').default} 
+title='ECMA'
+href="http://es.xiecheng.live/" />
+<ItemBox 
+img={require('./../assets/ts.ico').default} 
+title='TypeScript'
+href="https://www.typescriptlang.org/" />
+<ItemBox 
+img={require('./../assets/xiandai.png').default} 
+title='现代JS教程'
+href="https://zh.javascript.info/" />
+<ItemBox 
+img={require('./../assets/yarn.ico').default} 
+title='yarn'
+href="https://www.bookstack.cn/read/yarn-cn/0.md" />
+<ItemBox 
+img={require('./../assets/less.ico').default} 
+title='less'
+href="https://less.bootcss.com/" />
+<ItemBox 
+img={require('./../assets/sass.ico').default} 
+title='sass'
+href="https://www.sass.hk/" />
+<ItemBox 
+img={require('./../assets/yinji.ico').default} 
+title='印记中国'
+href="https://docschina.org/" />
+
+</Space>

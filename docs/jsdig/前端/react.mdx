@@ -1,0 +1,43 @@
+---
+sidebar_position: 2
+---
+React是Facebook用于构建用户界面的 JavaScript 库，国内大厂大部分都是用的React，相比于Vue本身的诸多优化，React更加灵活，造轮子的机会也多，而且Ant.design生态比较繁荣，只做项目的话Vue和React只学一个就行，但是如果想更进一步探究框架的设计理念，Vue和React需要对比来学习，框架只是武器，通过框架学习内力才是王道
+
+<!-- Docusaurus theme component -->
+import Space from '@site/src/components/Space';
+
+export const ItemBox = ({img,title,href}) => (
+  <Space
+    alignItems="center"
+    size="10px"
+    style={{
+    width:"200px",
+    minWidth:"150px",
+    height:"65px",
+    margin:"10px",
+    padding:"10px",
+    borderRadius:"5px",
+    boxShadow:"0 1px 4px #ccc",
+    cursor:'pointer'
+    }}
+    onClick={() =>window.open(href)}>
+    <Space><img src={img} style={{width:'45px'}} /></Space>
+    <Space flex="1">{title}</Space>
+  </Space>
+);
+
+<Space ignoreNum={4} flexWrap={'wrap'}>
+<ItemBox 
+img={require('./../assets/react.ico').default} 
+title='React'
+href="https://react.docschina.org/" />
+<ItemBox 
+img={require('./../assets/umi.png').default} 
+title='UmiJs'
+href="https://v3.umijs.org/zh-CN/docs" />
+<ItemBox 
+img={require('./../assets/umi.png').default} 
+title='Dumi'
+href="https://d.umijs.org/" />
+
+</Space>

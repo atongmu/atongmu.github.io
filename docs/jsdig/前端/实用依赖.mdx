@@ -1,0 +1,40 @@
+---
+sidebar_position: 2
+---
+开发过程中常用依赖
+
+<!-- Docusaurus theme component -->
+import Space from '@site/src/components/Space';
+
+export const ItemBox = ({img,title,href}) => (
+  <Space
+    alignItems="center"
+    size="10px"
+    style={{
+    width:"200px",
+    minWidth:"150px",
+    height:"65px",
+    margin:"10px",
+    padding:"10px",
+    borderRadius:"5px",
+    boxShadow:"0 1px 4px #ccc",
+    cursor:'pointer'
+    }}
+    onClick={() =>window.open(href)}>
+    <Space><img src={img} style={{width:'45px'}} /></Space>
+    <Space flex="1">{title}</Space>
+  </Space>
+);
+
+<Space ignoreNum={4} flexWrap={'wrap'}>
+<ItemBox 
+img={require('./../assets/day.png').default} 
+title='dayjs'
+href="https://dayjs.fenxianglu.cn/" />
+<ItemBox 
+img={require('./../assets/lodash.ico').default} 
+title='lodashjs'
+href="https://www.lodashjs.com/" />
+
+
+</Space>

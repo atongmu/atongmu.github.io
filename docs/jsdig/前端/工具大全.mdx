@@ -1,0 +1,71 @@
+---
+sidebar_position: 4
+---
+各种小工具
+
+<!-- Docusaurus theme component -->
+import Space from '@site/src/components/Space';
+
+export const ItemBox = ({img,title,href}) => (
+  <Space
+    alignItems="center"
+    size="10px"
+    style={{
+    width:"200px",
+    minWidth:"150px",
+    height:"65px",
+    margin:"10px",
+    padding:"10px",
+    borderRadius:"5px",
+    boxShadow:"0 1px 4px #ccc",
+    cursor:'pointer'
+    }}
+    onClick={() =>window.open(href)}>
+    <Space><img src={img} style={{width:'45px'}} /></Space>
+    <Space flex="1">{title}</Space>
+  </Space>
+);
+
+<Space ignoreNum={4} flexWrap={'wrap'}>
+<ItemBox 
+img={require('./../assets/shields.ico').default} 
+title='GitHub徽章'
+href="https://shields.io/category/build" />
+<ItemBox 
+img={require('./../assets/caniuse.png').default} 
+title='caniuse'
+href="https://caniuse.com/" />
+<ItemBox 
+img={require('./../assets/jingxiangzhan.png').default} 
+title='中国镜像站'
+href="https://npmmirror.com/" />
+<ItemBox 
+img={require('./../assets/linux.png').default} 
+title='Linux命令手册'
+href="https://www.linuxcool.com/" />
+<ItemBox 
+img={require('./../assets/ico.ico').default} 
+title='在线生成透明ICO图标'
+href="http://www.ico51.cn/" />
+<ItemBox 
+img={require('./../assets/zhengze.ico').default} 
+title='正则'
+href="https://any86.github.io/any-rule/" />
+<ItemBox 
+img={require('./../assets/fanyi.png').default} 
+title='腾讯交互翻译'
+href="https://yi.qq.com/zh-CN/index" />
+<ItemBox 
+img={require('./../assets/natapp.ico').default} 
+title='内网穿透'
+href="https://natapp.cn/" />
+<ItemBox 
+img={require('./../assets/googlehelper.ico').default} 
+title='ghelper'
+href="https://ghelper.net/" />
+<ItemBox 
+img={require('./../assets/sli.png').default} 
+title='演示文稿'
+href="https://cn.sli.dev/" />
+
+</Space>

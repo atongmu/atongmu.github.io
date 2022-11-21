@@ -1,0 +1,42 @@
+---
+sidebar_position: 3
+---
+收集常用开放平台
+
+<!-- Docusaurus theme component -->
+import Space from '@site/src/components/Space';
+
+export const ItemBox = ({img,title,href}) => (
+  <Space
+    alignItems="center"
+    size="10px"
+    style={{
+    width:"200px",
+    minWidth:"150px",
+    height:"65px",
+    margin:"10px",
+    padding:"10px",
+    borderRadius:"5px",
+    boxShadow:"0 1px 4px #ccc",
+    cursor:'pointer'
+    }}
+    onClick={() =>window.open(href)}>
+    <Space><img src={img} style={{width:'45px'}} /></Space>
+    <Space flex="1">{title}</Space>
+  </Space>
+);
+
+<Space ignoreNum={4} flexWrap={'wrap'}>
+<ItemBox 
+img={require('./../assets/aliyun.ico').default} 
+title='阿里云'
+href="https://www.aliyun.com/" />
+<ItemBox 
+img={require('./../assets/tencent.ico').default} 
+title='腾讯云'
+href="https://cloud.tencent.com/" />
+<ItemBox 
+img={require('./../assets/NTI4MWU5.ico').default} 
+title='微信公众号'
+href="https://mp.weixin.qq.com/" />
+</Space>

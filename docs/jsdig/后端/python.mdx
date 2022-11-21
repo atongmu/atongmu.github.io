@@ -1,0 +1,35 @@
+---
+sidebar_position: 2
+---
+
+python 常用
+
+<!-- Docusaurus theme component -->
+import Space from '@site/src/components/Space';
+
+export const ItemBox = ({img,title,href}) => (
+  <Space
+    alignItems="center"
+    size="10px"
+    style={{
+    width:"200px",
+    minWidth:"150px",
+    height:"65px",
+    margin:"10px",
+    padding:"10px",
+    borderRadius:"5px",
+    boxShadow:"0 1px 4px #ccc",
+    cursor:'pointer'
+    }}
+    onClick={() =>window.open(href)}>
+    <Space><img src={img} style={{width:'45px'}} /></Space>
+    <Space flex="1">{title}</Space>
+  </Space>
+);
+
+<Space>
+<ItemBox 
+img={require('./../assets/python.ico').default} 
+title='本办法学python'
+href="https://www.kancloud.cn/kancloud/learn-python-hard-way/49883" />
+</Space>

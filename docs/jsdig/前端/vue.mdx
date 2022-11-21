@@ -1,0 +1,42 @@
+---
+sidebar_position: 2
+---
+Vue是国内最流行的框架之一，上手贼简单，最新的Vue3带来了诸多的新特性，也是现在国内前端团队首选的前端框架之一，学习框架不仅要学习使用，还要学习组件设计思路，框架本身的设计理念，最终能够知其然也知其所以然，可以和面试官谈笑风生
+<!-- Docusaurus theme component -->
+import Space from '@site/src/components/Space';
+
+export const ItemBox = ({img,title,href}) => (
+  <Space
+    alignItems="center"
+    size="10px"
+    style={{
+    width:"200px",
+    minWidth:"150px",
+    height:"65px",
+    margin:"10px",
+    padding:"10px",
+    borderRadius:"5px",
+    boxShadow:"0 1px 4px #ccc",
+    cursor:'pointer'
+    }}
+    onClick={() =>window.open(href)}>
+    <Space><img src={img} style={{width:'45px'}} /></Space>
+    <Space flex="1">{title}</Space>
+  </Space>
+);
+
+<Space ignoreNum={4} flexWrap={'wrap'}>
+<ItemBox 
+img={require('./../assets/vue.ico').default} 
+title='Vue'
+href="https://cn.vuejs.org/" />
+<ItemBox 
+img={require('./../assets/vue.ico').default} 
+title='Vue.js 技术揭秘'
+href="https://ustbhuangyi.github.io/vue-analysis/" />
+<ItemBox 
+img={require('./../assets/vite.ico').default} 
+title='ViteJs'
+href="https://cn.vitejs.dev/" />
+
+</Space>
