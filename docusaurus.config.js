@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '鸣洋网络',
+  tagline: '无[鸣]之朴 搜[洋]侧陋',
   url: 'https://blog.codingfly.site',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -70,9 +70,9 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: '鸣洋网络',
         logo: {
-          alt: 'My Site Logo',
+          alt: '鸣洋网络',
           src: 'img/logo.png',
         },
         items: [

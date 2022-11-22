@@ -2,7 +2,7 @@
  * @Author: codingfly
  * @Description: 
  * @Date: 2022-11-20 09:11:48
- * @LastEditTime: 2022-11-21 16:11:32
+ * @LastEditTime: 2022-11-22 09:48:30
  * @FilePath: \my-website\src\pages\index.js
  */
 import React from 'react';
@@ -21,11 +21,12 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p> —— 低姿态做人，高质量做事。</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/blog">
-            Docusaurus Tutorial - 5min ⏱️
+            查看更多相关文章 ⏱️
           </Link>
         </div>
       </div>
