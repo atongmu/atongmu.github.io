@@ -41,12 +41,11 @@ const config = {
         blog: {
           showReadingTime: true,
           postsPerPage: 2,
-          blogSidebarCount: 2,
+          blogSidebarCount: 10,
           blogSidebarTitle: '近期文章',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -101,12 +100,28 @@ const config = {
             position: 'right',
             items: [
               {
-                href: 'https://pc.meitu.com/',
-                label: '美图秀秀',
+                href: 'https://www.uugai.com/',
+                label: 'logo设计',
+              },
+              {
+                href: 'https://vocalremover.org/',
+                label: '音频剪辑',
+              },
+              {
+                href: 'https://zh.pickfrom.net/',
+                label: '视频剪辑',
               },
               {
                 href: 'https://www.qtool.net/',
                 label: '昊霖设计',
+              },
+              {
+                href: 'https://pc.meitu.com/',
+                label: '美图秀秀',
+              },
+              {
+                href: 'https://pika.style/',
+                label: '美化截图',
               },
               {
                 href: 'https://www.remove.bg/zh',

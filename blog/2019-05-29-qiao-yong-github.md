@@ -10,9 +10,9 @@ isTop: false
 
 ## 快捷键
 1. 搜索 <kbd> S </kbd> 键 [高级搜索](https://github.com/search/advanced)
-2. 查看文件 【T】 键
-3. 跳转某一行 【L】 键
-4. 查看改动记录【B】 键
+2. 查看文件 <kbd>T</kbd> 键
+3. 跳转某一行 <kbd>L</kbd> 键
+4. 查看改动记录<kbd>B</kbd> 键
 5. 【ctrl + K】 命令面板
 6. 网页版 Vs Code 仓库详情页按下【 。】键
 7. 网页调试 【gitpod.io/#/】
