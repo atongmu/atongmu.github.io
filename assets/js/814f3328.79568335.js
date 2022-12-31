@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"\u8fd1\u671f\u6587\u7ae0","items":[{"title":"nvm \u5b89\u88c5\u4f7f\u7528\u6559\u7a0b","permalink":"/blog/nvm-an-zhuang-shi-yong-jiao-cheng"},{"title":"Markdown\u8bed\u6cd5","permalink":"/blog/markdown-yu-fa"}]}')}}]);
