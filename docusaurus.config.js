@@ -81,12 +81,12 @@ const config = {
             position: 'right',
             items: [
               {
-                to: '/reservation_system',
-                label: '预约系统',
-              },
-              {
                 to: '/single_mall',
                 label: '单商户商城',
+              },
+              {
+                to: '/reservation_system',
+                label: '预约系统',
               },
               {
                 to: '/attendance',
