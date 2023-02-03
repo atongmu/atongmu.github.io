@@ -160,12 +160,6 @@ const config = {
               },
             ],
           },
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'right',
-            label: '导航大全',
-          },
           { to: '/blog', label: '博客', position: 'right' },
           { to: '/about', label: '关于我', position: 'right' },
           {
