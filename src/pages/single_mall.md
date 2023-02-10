@@ -1,3 +1,10 @@
+<!--
+ * @Author: codingfly
+ * @Description: 
+ * @Date: 2022-11-21 07:12:16
+ * @LastEditTime: 2023-02-11 00:02:12
+ * @FilePath: \my-website\src\pages\single_mall.md
+-->
 ---
 sidebar_position: 2
 ---
@@ -15,22 +22,16 @@ sidebar_position: 2
 ![An image from the static](/img/mall.jpg)
 
 ## 技术特点
-* 前后端完全分离 (互不依赖 开发效率高)
-* 采用PHP7.4 (强类型严格模式)
-* Thinkphp6.0.5（轻量级PHP开发框架）
-* Composer一键引入三方扩展
-* 所有端代码开源 (服务端PHP、后台React端、Taro端)
-## 设置特点
-* 分配权限自定义
-* 图片存储自定义
-* 小程序配置自定义
+* 优惠券 用户可通过小程序领取优惠券
+* 客服工具 用户通过小程序和商家进行在线实时对话获取信息
+* 店铺装修 商户可选择模板个性化装修自己的小程序页面
+* 商品管理 商户可通过管理后台进行商品上下架及信息设置
+* 订单管理 商户可通过管理后台管理订单状态，进行订单查询、订单发货等
+* 线上支付 商户可通过微信支付工具在小程序内进行收付款
+* 数据看板 商户可通过管理后台查看当前订单数、营业额、累计客户数等店铺综合数据
 ## 演示地址
-* 管理后台  [http://mall.codingfly.site/](http://mall.codingfly.site/)
-* 小程序 ![An image from the static](/img/mall.jpg)
+* 管理后台  [http://mall.codingfly.site/](http://mall.codingfly.site/) 
+    账号：admin 密码：888888
+* 小程序 ![An image from the static](/img/shiguangxiaochaoshi.jpg)
 
-## 环境要求
-- CentOS 7.0+
-- Nginx 1.10+
-- PHP 7.1+  (推荐php7.4)
-- MySQL 5.6+
 
