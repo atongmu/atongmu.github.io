@@ -1,10 +1,3 @@
-<!--
- * @Author: codingfly
- * @Description: 
- * @Date: 2022-11-21 07:12:16
- * @LastEditTime: 2023-02-11 00:36:14
- * @FilePath: \my-website\src\pages\single_mall.md
--->
 ---
 sidebar_position: 2
 ---
@@ -32,6 +25,7 @@ sidebar_position: 2
 ## 演示地址
 * 管理后台  [http://mall.codingfly.site/](http://mall.codingfly.site/) 
     账号：editor 密码：123456
-* 小程序 ![An image from the static](/img/shiguangxiaochaoshi.jpg)
+* 小程序 
+    ![An image from the static](/img/shiguangxiaochaoshi.jpg)
 
 
